@@ -1,20 +1,22 @@
 # Stanford_ECON295 / CS323_I_2024_I_The_Age_of_AI,_Eric_Schmidt
 
-today's guest really does need an introduction.
+> [@宝玉xp](https://weibo.com/u/1727858283) 找出了原视频，详见[这个链接](https://bilibili.com/video/BV1Fy411v7jt)
+> 
+> 为了更好的阅读体验，可以在[这个网页](https://www.aicando.xyz/ai/CS323_I_2024_I_The_Age_of_AI_Eric_Schmidt)读
+
+Today's guest really does need an introduction.
 I think I first met Eric about 25 years ago when he came to Stanford Business School as CEO of Novell.
 He's had done a few things since then at Google starting I think 2001 and Schmidt Futures starting in 2017 and done a whole bunch of other things you can read about, but he can only be here until 5/15, so I thought we'd dive right into some questions, and I know you guys have sent some as well.
 I have a bunch written here, but what we just talked about upstairs was even more interesting, so I'm just going to start with that, Eric, if that's okay, which is where do you see AI going in the short term, which I think you defined as the next year or two?
 
 
-今天的嘉宾确实需要介绍一下。
-
-我大概是在25年前第一次认识Eric，当时他作为Novell的CEO来到斯坦福商学院。自那之后，他做了不少事情，比如2001年开始在Google工作，2017年创立Schmidt Futures，还参与了许多其他项目，这些你们都可以去了解。不过，他今天只能待到5点15分，所以我们就直接进入提问环节吧。我知道你们也有一些问题。我这里也准备了一些问题，不过我们刚才在楼上讨论的内容更有意思，所以Eric，如果你不介意的话，我就先从这个问题开始：你认为AI在短期内，也就是接下来的一两年，会发展到什么程度？
+今天的嘉宾真的值得一提。我想我大约是在25年前第一次见到Eric，当时他作为Novell的首席执行官来到斯坦福商学院。从那以后，他在谷歌做了几件事情，我记得大概是从2001年开始的，然后在2017年启动了Schmidt Futures基金，并且完成了许多其他成就，大家可以自行查阅。不过他今天只能停留到5点15分，所以我想我们直接进入提问环节。我知道你们也提交了一些问题，我这边也写了不少问题，但我们刚刚在楼上的谈话更有趣。所以，如果可以的话，埃里克，我想从那个话题开始：你认为在短期内，也就是一两年内，人工智能会如何发展？
 
 ## AI在一两年内的发展
 
 Things have changed so fast, I feel like every six months I need to sort of give a new speech on what's going to happen.
 
-变化实在太快了，我感觉自己每隔六个月就需要更新一次关于未来的演讲。
+事情变化得如此之快，以至于我感觉自己每隔六个月就得更新一次演讲内容，讲讲接下来会发生什么。
 
 ### 上下文窗口
 
@@ -24,11 +26,13 @@ Say your name, tell us what it does.
 Basically it allows you to prompt with like a million tokens or a million words or whatever.
 So you can ask a million-word question.
 
-有谁能听到计算机，那位预算有限的计算机科学工程师吗？有谁能向全班解释一下什么是百万Token上下文窗口吗？
+有人能听到计算机科学工程师的声音吗？哪位预算有限的计算机科学工程师能为班上的其他人解释一下什么是百万标记上下文窗口？
 
-你在这里，请说出你的名字，告诉我们它的作用。
+你在这里。说出你的名字，然后告诉我们它是干什么用的。
 
-基本上，它允许你输入大约一百万个Token，或者一百万个词之类的内容。所以，你可以提出一个包含百万词的提问。
+基本上，它让你可以用大约一百万个标记、单词或其他内容来进行提示。
+
+这意味着你可以提出一个包含一百万字的问题。
 
 Yes, I know this is a very large direction in January now.
 
@@ -1756,5 +1760,3 @@ They're not like the same scale.
 And next week we have Mira Morati, Chief Technology Officer of OpenAI, briefly the CEO of OpenAI.
 So come with your questions for her.
 We'll see you.
-
-[BLANK_AUDIO]

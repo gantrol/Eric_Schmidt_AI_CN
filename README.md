@@ -1,76 +1,75 @@
 # Stanford_ECON295 / CS323_I_2024_I_The_Age_of_AI,_Eric_Schmidt
 
 > [@宝玉xp](https://weibo.com/u/1727858283) 找出了原视频，详见[这个链接](https://bilibili.com/video/BV1Fy411v7jt)
-> 
-> 为了更好的阅读体验，可以在[这个网页](https://www.aicando.xyz/ai/CS323_I_2024_I_The_Age_of_AI_Eric_Schmidt)读
+>
+> 原英文脚本在此：https://github.com/ociubotaru/transcripts，有改动
 
-Today's guest really does need an introduction.
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=1956457312&bvid=BV1Fy411v7jt&cid=1653463414&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
+Moderator: Today's guest really does not need an introduction.
 I think I first met Eric about 25 years ago when he came to Stanford Business School as CEO of Novell.
 He's had done a few things since then at Google starting I think 2001 and Schmidt Futures starting in 2017 and done a whole bunch of other things you can read about, but he can only be here until 5/15, so I thought we'd dive right into some questions, and I know you guys have sent some as well.
 I have a bunch written here, but what we just talked about upstairs was even more interesting, so I'm just going to start with that, Eric, if that's okay, which is where do you see AI going in the short term, which I think you defined as the next year or two?
 
 
-今天的嘉宾真的值得一提。我想我大约是在25年前第一次见到Eric，当时他作为Novell的首席执行官来到斯坦福商学院。从那以后，他在谷歌做了几件事情，我记得大概是从2001年开始的，然后在2017年启动了Schmidt Futures基金，并且完成了许多其他成就，大家可以自行查阅。不过他今天只能停留到5点15分，所以我想我们直接进入提问环节。我知道你们也提交了一些问题，我这边也写了不少问题，但我们刚刚在楼上的谈话更有趣。所以，如果可以的话，埃里克，我想从那个话题开始：你认为在短期内，也就是一两年内，人工智能会如何发展？
+主持人：今天的嘉宾不需要过多介绍。我记得我大约是在25年前第一次见到Eric，当时他作为Novell的首席执行官来到斯坦福商学院。从那以后，他在谷歌做了几件事情，我记得大概是从2001年开始的，然后在2017年启动了Schmidt Futures基金，并且完成了许多其他成就，大家可以自行查阅。不过他今天只能停留到5点15分，所以我想我们直接进入提问环节。我知道你们也提交了一些问题，我这边也写了不少问题，但我们刚刚在楼上的谈话更有趣。所以，如果可以的话，埃里克，我想从那个话题开始：你认为在短期内，也就是一两年内，人工智能会如何发展？
 
 ## AI在一两年内的发展
 
-Things have changed so fast, I feel like every six months I need to sort of give a new speech on what's going to happen.
+Eric: Things have changed so fast, I feel like every six months I need to sort of give a new speech on what's going to happen.
 
-事情变化得如此之快，以至于我感觉自己每隔六个月就得更新一次演讲内容，讲讲接下来会发生什么。
+埃里克：事情变化得如此之快，以至于我感觉自己每隔六个月就得更新一次演讲内容，讲讲接下来会发生什么。
 
 ### 上下文窗口
 
-Can anybody hear the computer, the budget computer science engineer, can anybody explain what a million-token context window is for the rest of the class?
-You're here.
-Say your name, tell us what it does.
-Basically it allows you to prompt with like a million tokens or a million words or whatever.
+Eric: Can anybody here, the computer, a budget of computer science engineer, can anybody explain what a million-token context window is for the rest of the class?
+
+Moderator: Over here.
+
+Eric: So, say your name, tell us what it does.
+
+Student A: Basically it allows you to prompt with like a million tokens or a million words or whatever.
 So you can ask a million-word question.
 
-有人能听到计算机科学工程师的声音吗？哪位预算有限的计算机科学工程师能为班上的其他人解释一下什么是百万标记上下文窗口？
+Student A: Yes, I know this is a very large direction in <???>.
 
-你在这里。说出你的名字，然后告诉我们它是干什么用的。
+Eric: No, they're going to 10.
 
-基本上，它让你可以用大约一百万个标记、单词或其他内容来进行提示。
+Student A: Yes, 10 million?
 
-这意味着你可以提出一个包含一百万字的问题。
+Eric: Yes. And then Anthropic is at 200,000 going to a million, and so forth. You can imagine OpenAI has a similar goal.
 
-Yes, I know this is a very large direction in January now.
+埃里克：在座的哪位计算机科学工程师能为班上的其他同学解释一下什么是百万标记上下文窗口？
 
-No, no, they're going to 10.
+主持人：这位。
 
-Yes, a couple of them.
+埃里克：好的，先介绍一下你自己，然后告诉我们它的作用是什么。
 
-Anthropic is at 200,000 going to a million and so forth.
+学生A：基本上，它让你可以输入大约一百万个标记、单词或其他内容。所以你可以提出一个包含一百万字的问题。
 
-You can imagine OpenAI has a similar goal.
+学生A：是的，我知道这是一个非常重要的发展方向。
 
-是的，我知道这在今年一月份已经是个很大的趋势了。
+埃里克：不，他们的目标是1000万。
 
-不不，他们会达到1000万。
+学生A：是的，1000万？
 
-是的，其中有几家公司。
+埃里克：对。而且Anthropic已经达到了20万，并且正在朝着一百万迈进。你可以想象，OpenAI也有类似的目标。
 
-Anthropic已经达到20万，目标是达到100万，等等。你可以想象，OpenAI也有类似的目标。
+### AI Agent
 
+Eric: Can anybody here give a technical definition of an AI agent? Yes, sir.
 
-Can anybody here give a technical definition of an AI agent?
+Student B: I'm Jared. An AI agent is something that does some kind of a task. So that might be calling things on the web, things on your behalf, it could be a number of different things, along these lines. There are various things that are possible.
 
-Yes, sir.
+Eric: So an AI agent is something that does some kind of a task. Another definition would be that it's an LLM, state in memory.
 
-So an agent is something that does some kind of a task.
+Eric：这里有人能给出 AI 代理的技术定义吗？是的，先生。
 
-Another definition would be that it's an LLM state in memory.
+学生 B：我是 Jared。AI 代理是执行某种任务的东西。因此，这可能是在网络上调用某些东西，代表您调用某些东西，可能是许多不同的东西，大致如此。有各种可能。
 
-Can anybody, again, computer scientists, can any of you define text to action?
+Eric：因此，AI 代理是执行某种任务的东西。另一个定义是，它是 LLM，即内存中的状态。
 
-有谁能在这里给出AI代理的技术定义吗？
-
-是的，先生。
-
-代理是执行某种任务的东西。另一种定义是，它是内存中的LLM状态。
-
-那么，计算机科学家们，有谁能定义一下“文本到行动”吗？
-
+Eric: Can anybody, again, computer scientists, can any of you define text to action?
 
 Taking text and turning it into an action?
 
@@ -146,10 +145,6 @@ With respect to agents, there are people who are now building essentially LLM ag
 短期记忆的有趣之处在于，当你输入问题时，让系统读取20本书的内容并告诉你它们的含义，它往往会忘记中间的部分，这恰好与人类大脑的工作方式类似。
 
 这就是我们目前的进展。
-
-至于智能代理，有些人正在开发LLM代理，他们的方法是先学习像化学这样的学科，掌握其中的原理，然后通过实验验证，并将结果融入他们的理解之中。
-
-### AI 代理（Agent）
 
 至于AI代理，现在有些人正在构建基本的LLM（大语言模型）代理。它们的工作方式是，先阅读某个领域的内容，比如化学，然后通过这种学习理解化学的基本原理，再进行实验验证，并将这些新发现纳入它们的知识体系中。
 
@@ -264,12 +259,10 @@ That's because he doesn't have a choice.
 If he had infinite money, he would, today he would pick the B200 architecture out of Nvidia because it would be faster.
 And I'm not suggesting, I mean, it's great to have competition.
 I've talked to AMD and Lisa Sue at great length.
-They have built a, a thing which will translate from this CUDA architecture that you were describing to their own, which is called Rockum.
+They have built a, a thing which will translate from this CUDA architecture that you were describing to their own, which is called ROCm.
 It doesn't quite work yet.
 
 如果他有无限的资金，他今天会选择Nvidia的B200架构，因为它速度更快。我并不是说竞争不好，竞争当然是件好事。我和AMD的Lisa Su进行了深入的交流。他们已经开发了一种可以将CUDA架构转换为他们自己架构的工具，叫做ROCm。不过，这个工具目前还不能完全正常工作。
-
-<!-- TODO: check ROCm or Rockum-->
 
 They're working on it.
 You were at Google for a long time and they invented the transformer architecture.
@@ -800,7 +793,7 @@ Build a UI.
 Make a good copy.
 Add generative AI in an interesting way.
 
-于是你可以对AI说，“给我做一个谷歌的竞争产品。” 对，你个人来说，不是为我做一个谷歌的竞争产品。  
+于是你可以对AI说，“给我做一个谷歌的竞争产品。” 对，你个人来说，不是为我做一个谷歌的竞争产品。
 “搜索网络内容，构建一个用户界面，制作一个优质副本，并以一种有趣的方式加入生成式AI。”
 
 Do it in 30 seconds and see if it works." Right?
@@ -1144,9 +1137,9 @@ Look them up.
 It's along.
 It will seem very old to you, but I think that's how it will alternate.
 
-会有很多诉讼，最终会达成某种协议，规定你必须支付一定比例的收入才能使用ASCAP BMI。  
-ASCAP BMI。  
-查一下它们的背景。  
+会有很多诉讼，最终会达成某种协议，规定你必须支付一定比例的收入才能使用ASCAP BMI。
+ASCAP BMI。
+查一下它们的背景。
 这些组织已经存在很久了，可能会显得很古老，但我认为未来的发展方式将与此类似。
 
 ### 问题11
@@ -1245,13 +1238,13 @@ Thank you so much.
 > The fact of the matter is this is a rich country's game, right?
 > Huge capital, lots of technically strong people, strong government support, right?
 > There are two examples.
-> 
+>
 > There are lots of other countries that have all sorts of problems.
 > They don't have those resources.
 > They'll have to find a partner.
 > They'll have to join with somebody else, something like that.
 > I want to leave it...
-> 
+>
 > Because I think the last time we met you, you were at a hackathon at AGI House and I know you spend a lot of time helping young people as they create a lot of wealth, and you spoke very passionately about wanting to do that.
 Do you have any advice for folks here as they're building their...
 They're writing their business plans for this class or policy proposals or research proposals at this stage of the careers going forward?
@@ -1259,11 +1252,11 @@ Well, I teach a class in the business school on this, so you should come to my c
 I am struck by the speed with which you can build demonstrations of new ideas.
 
 > 我想知道这些发展将把那些没有参与前沿模型开发和计算资源的国家引向何方，例如这些国家将会面临什么样的局面。
-> 
+>
 > 富国愈富，穷国则尽力而为。他们不得不……事实是，这是富裕国家的游戏，对吧？需要巨大的资本，大量技术能力强的人才，以及强有力的政府支持，对吧？有两个例子可以说明这一点。
-> 
+>
 > 而其他许多国家则面临各种各样的问题，它们没有这些资源。它们将不得不寻找合作伙伴，或者与其他国家联合之类的。我想就这样结束这个话题……
-> 
+>
 > 因为我记得上次我们见面时，你在AGI House参加黑客马拉松，我知道你花了很多时间帮助年轻人创造财富，并且你对此充满热情。对于那些正在编写商业计划、政策建议或研究提案的人，你有什么建议吗？这些人在职业生涯的这个阶段应该如何前行？
 
 So, in one of the hackathons I did, the winning team, the command was, "Fly the drone between two towers," and it was given a virtual drone space.

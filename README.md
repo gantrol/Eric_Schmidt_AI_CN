@@ -1350,6 +1350,8 @@ Quick question over there.
 :::info 主讲者(Eric)似乎已经走了
 :::
 
+### 验收能力
+
 I just want to follow up on a comment about, should we still learn to code?
 Should we still study English?
 Are those going to be useful?
@@ -1361,11 +1363,19 @@ And in coding right now, it appears that they're not actually that helpful for t
 They're very helpful for moderately good coders.
 But if you don't know anything at all about coding, they're not helpful either.
 
+我想跟进一下刚才关于是否我们还需要学习编程的问题，以及我们是否还应该学习英语。这些技能还会有用吗？Eric的回答是肯定的，他认为拥有大学学历的高技能工作或任务仍然是安全的，但其他涉及图像编辑的工作可能就不太安全了。
+
+这是一个很有趣的问题。也许我们待会儿可以多谈谈这个，但现在思考一下AI系统在某些情况下是完全替代人类的工作，还是在某种程度上补充了人类的工作，这很有趣。就目前的编程情况来看，AI对最顶尖的程序员其实帮助不大，但对中等水平的程序员却非常有帮助。不过如果你完全不懂编程，它也不会对你有任何帮助。
+
 So it's kind of an inverted you.
 And you can see why that would be the case, that if you don't even understand the code that they generate right now is often buggy or it isn't exactly right.
 So if you can't even interpret and understand what's going on, you can't use it very effectively.
 And for now, the very best coders, it appears that the code that is generated isn't at that level, so you get that U shape.
 But that means if you don't know any code, you do need to have some in order for it to be useful.
+
+所以，这种情况有点像一个倒U型曲线。你可以理解为什么会这样，因为如果你连AI生成的代码都看不懂，那这些代码通常是有bug的，或者不完全正确。如果你不能解读和理解这些代码，你就无法有效地使用它。而对最顶尖的程序员来说，AI生成的代码显然还达不到他们的水平，所以就形成了这个U型关系。但这意味着，如果你完全不懂代码，你确实需要有一些基础知识才能让它变得有用。
+
+我认为这对于现在很多应用程序来说都是正确的，你需要有一些基本的理解才能最大化它的作用。是否始终如此，这是一个有趣的开放性问题。我在上次课的最后展示了一张幻灯片，上面有0到5级的自动驾驶汽车。其中我们现在可以讨论的一个问题是，如果你将这种类似自动驾驶分级的思维模式应用到经济中的所有任务上，它们会经历什么样的变化？
 
 And I think that's true for a lot of applications right now, that you have to have some basic understanding in order to get the most of it.
 I think it's an interesting open question if that's always going to be the case.
@@ -1375,15 +1385,21 @@ Like how many would they go through?
 
 So with autonomous cars, we aren't really at level 5 very much although I don't know how many of you guys have ridden in a Waymo, one of the Waymo cars.
 So that one seems pretty good, although Sebastian Thrun, who I rode in it with, says it's just incredibly expensive right now.
-They probably lose $50 to $100.
+They probably lose \$50 to \$100.
 He doesn't know he's not there.
 He started the program, but he's not there anymore.
+
+我认为目前很多应用程序确实是这样的，你需要有一些基本的理解才能充分发挥它们的作用。但这是否会一直如此，这是一个有趣的开放性问题。我在上次课上很简短地展示了一张幻灯片，上面列出了0到5级的自动驾驶汽车。我们现在可以讨论的问题之一是，如果你把这种范式应用到经济中的所有任务上，它们会经历怎样的变化？
+
+至于自动驾驶汽车，我们还没有真正达到5级的程度，不过我不知道你们中有多少人乘坐过Waymo（谷歌母公司旗下的自动驾驶公司）的汽车。Waymo的表现看起来相当不错，虽然我和Sebastian Thrun一起乘坐时，他提到目前这种技术非常昂贵。他说它们每次可能要亏损50到100美元。不过他自己也不太清楚，因为他已经不在那里工作了。他创立了这个项目，但现在已经离开了。
 
 But just all of the costs of running it, it's not practical.
 Maybe it'll get down the curve.
 Lidar will get cheaper, but we have a lot of sort of autonomous cars at level 2, 3, even 4, arguably, where humans are still involved.
 And you see a lot of other tasks like coding.
 I just talked about that.
+
+但是，运营它的所有成本来看，这并不现实。也许成本会随着时间下降，激光雷达会变得更便宜，但我们现在有很多自动驾驶汽车处于2级、3级，甚至4级的水平，可以说在人类仍然参与的情况下运行。你会看到很多其他类似的任务，比如编程，我刚才提到了这一点。
 
 On the other hand, chess, that slide, the slide before it, I talked about what's sometimes called advanced chess or freestyle chess.
 When Gary Kasparov, after he lost to Deep Blue in 1998, '97, he started this set of competitions where humans and machines could work together.
@@ -1397,11 +1413,19 @@ It would be interesting if anybody wants to work on a research project or if any
 Because that middle zone is kind of a nice one for us humans where the machines are helping us, but humans are still indispensable to creating value and that would be, that's a zone where you can have higher productivity, more wealth and performance, but also more likely to have shared prosperity because labor is sort of inherently distributed, whereas technology and capital, as Eric was just saying, potentially could be very concentrated.
 Do you have a thought on that?
 
-I was just going to ask kind of a related question.
-He was saying also that we have a 10 year like chip manufacturing.
-Yeah, I was surprised about that.
-And I think what was interesting to me as a labor economist is that it was really like a green flag I've seen in literature and news that, okay, if we're on showing all of this chip manufacturing, isn't that going to create some sort of resurgence in blue collar jobs?
-And I wondered if you had any thoughts about intelligent robotic models or human labor.
+### 人机组合最强吗？工人岗位会变多吗？
+
+另一方面，关于国际象棋，那张幻灯片，我之前提到的幻灯片，我谈到了有时被称为“高级国际象棋”或“自由式国际象棋”。当Gary Kasparov在1997年输给Deep Blue后，他发起了一系列比赛，允许人类和机器一起合作。在很长一段时间里，正如我在2012年或2013年的TED演讲中提到的那样，当时人类和机器合作能够战胜Deep Blue或任何国际象棋计算机。所以，最强的国际象棋组合是这种人机结合的形式。但现在情况已经不同了。
+
+像AlphaZero这样的程序，现在根本不需要人类的贡献，人类的参与对这些棋局机器来说甚至是种干扰。所以这经历了从0级，机器什么都做不了，到合作阶段，再到完全自动化的过程，大约花了20年左右。如果有人想做个研究项目，或者你们中有谁现在有想法，可以讨论一下，哪些任务会处于那个“中间区域”？因为那个中间区域对我们人类来说是个不错的地方，在这个区域中，机器帮助我们，但人类在创造价值方面仍然不可或缺。在这个区域中，你可以拥有更高的生产力、更多的财富和表现，但也更可能实现共享繁荣，因为劳动力本质上是分散的，而正如Eric刚才所说，技术和资本则有可能非常集中。你对此有什么看法？
+
+> I was just going to ask kind of a related question.
+> He was saying also that we have a 10 year like chip manufacturing.
+> Yeah, I was surprised about that.
+> And I think what was interesting to me as a labor economist is that it was really like a green flag I've seen in literature and news that, okay, if we're on showing all of this chip manufacturing, isn't that going to create some sort of resurgence in blue collar jobs?
+> And I wondered if you had any thoughts about intelligent robotic models or human labor.
+
+我正打算问一个相关的问题。他还说我们有一个10年的芯片制造周期。是的，我对此也感到惊讶。作为一名劳动经济学家，我觉得有趣的是，我在文献和新闻中看到的都是一些绿灯信号，好像说如果我们重振这些芯片制造业，这是否会在蓝领工作中带来某种复兴？我想知道你对智能机器人模型或人类劳动有什么看法。
 
 Well, I don't think it's going to be much of a, I mean, how many of you guys have visited the chip fab, anybody?
 You guys, some, a few of you have.
@@ -1421,11 +1445,17 @@ It's that they don't actually require a whole lot of labor anymore.
 So it's a pretty labor, I think.
 US manufacturing is surging in terms of output, but in terms of employment, it's not really growing all that much.
 
-Yeah.
-Let's go over here.
-Yeah.
-Do you think you have an inflation point coming for agents or text action models in the next year?
-Oh, yeah.
+嗯，我觉得这不会有太大的影响，我是说，你们中有多少人参观过芯片制造厂？有人吗？你们中的一些人参观过。在那个制造厂里有多少工人？嗯，我是说，好吧。所以答案是零。
+
+他们不让你进去的原因之一是人类太笨拙、不干净，无法进入。所以整个过程是全自动化的，工厂是封闭的。确实有一些工作需要人工，比如运送物品。如果一个机器人倒下了或者出现了什么问题，他们需要穿上你们可能见过的那种看起来像宇航服的防护服进去，可能调整一下什么，然后再出来，希望没有弄坏什么。所以，这基本上是一个全自动化的工厂。
+
+是的，我不认为这需要很多人工。我认为这并不像是蓝领工作的复兴。实际上，苹果将MacBook的生产迁回德州的原因之一，并不是因为德州的劳动力便宜，而是因为他们实际上不再需要太多人工了。所以，这个生产过程对劳动力的需求相对较少。我认为，美国制造业在产出方面确实在快速增长，但在就业方面并没有增长太多。
+
+### 明年Agent或文本生成模型会迎来一个临界点吗？
+
+> Do you think you have an inflation point coming for agents or text action models in the next year?
+>
+> 你觉得在明年，Agent或文本生成模型会迎来一个临界点吗？
 
 No, no.
 Well, he said what Eric, I'm hearing similar thing.
@@ -1444,6 +1474,12 @@ Now go back and check the voice.
 Is this the right level for our audience?
 Now, you know, and by iterating like that, you can write a much, much better essay or any kind of a task.
 This is a real revolution.
+
+不，不。Eric提到的，我听到的也是类似的看法。其实，他很好地总结了这三个趋势。我以前听说过它们各自的发展趋势，但我觉得将它们结合在一起是非常有意义的。今天早些时候，我在和Andrew Ng交谈，他一直在强调代理人技术，认为它可能会成为2024年的一个浪潮。Andrew也很生动地描述了这一点。就像你们知道的，当你使用大语言模型（LLM）写一篇文章时，它是逐词生成的，整个过程是一气呵成的。
+
+这已经表现得相当不错了。但想象一下，如果你写作时不能使用退格键，也不能先做一个大纲，而是只能直接写下去。现在的代理人会告诉你，第一步是先做一个大纲。
+
+然后，你再填充每一段内容，之后回头检查行文是否流畅。再检查语气是否合适，是否符合目标读者的水平。通过这样不断迭代，你可以写出一篇更好的文章或完成任何任务。这将是一场真正的革命。
 
 There's all sorts of things you can just do much better if you do that.
 Then the thing about the context window is also really important.

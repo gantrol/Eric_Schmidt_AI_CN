@@ -2,7 +2,7 @@
 
 > [@宝玉xp](https://weibo.com/u/1727858283) 找出了原视频，发到了[B站](https://bilibili.com/video/BV1Fy411v7jt)，字幕在[Github](https://github.com/JimLiu/translations/blob/main/Stanford%20CS323%20I%202024%20I%20The%20Age%20of%20AI%2C%20Eric%20Schmidt/Stanford%20CS323%20I%202024%20I%20The%20Age%20of%20AI%2C%20Eric%20Schmidt.en.srt)
 >
-> 原英文脚本在此：https://github.com/ociubotaru/transcripts，有改动
+> [原英文脚本](https://github.com/ociubotaru/transcripts) ，有改动
 >
 > 想要更好的阅读体验，可以到[这个网页](https://www.aicando.xyz/ai/CS323_I_2024_I_The_Age_of_AI_Eric_Schmidt)
 
@@ -102,7 +102,7 @@ Student C: Yes, instead of taking text and turning it into more text, taking tex
 
 Eric: So another definition would be language to Python, a programming language I never wanted to see survive and everything in AI is being done in Python. There's a new language called Mojo that has just come out, which looks like they finally have addressed AI programming, but we'll see if that actually survives over the dominance of Python.
 
-Eric: 计算机科学家们，你们中有谁能定义“文本转行动”？
+Eric: 计算机科学家们，你们中有谁能定义「文本转行动」？
 
 Eric: 拿到文本，然后将它转化为行动。
 
@@ -116,229 +116,208 @@ Eric: 也就是说，另一种定义可以是将语言转换为Python代码—�
 
 ### NVIDIA
 
-One more technical question. Why is NVIDIA worth $2 trillion and the other companies are struggling?
+Eric: One more technical question. Why is NVIDIA worth $2 trillion and the other companies are struggling?
 
-Technical answer. I mean, I think it just boils down to like most of the code needs to run with CUDA optimizations that currently only NVIDIA GPU supports.
+Student D: Technical answer.
+I mean,
+I think it just boils down to like most of the code needs to run with CUDA optimizations that currently only NVIDIA GPU supports.
+Other companies can make whatever they want to, but unless they have the 10 years of software there,
+you don't have the machine learning optimization.
 
-Other companies can make whatever they want to, but unless they have the 10 years of software there, you don't have the machine learning optimization.
-I like to think of CUDA as the C programming language for GPUs.
+Eric: I like to think of CUDA as the C programming language for GPUs.
 That's the way I like to think of it.
-
 It was founded in 2008.
 I always thought it was a terrible language and yet it's become dominant.
-
-再来一个技术问题：为什么NVIDIA市值达到2万亿美元，而其他公司却举步维艰？
-
-技术性回答。其实，这主要是因为大多数代码需要通过CUDA优化运行，而目前只有NVIDIA的GPU支持这种优化。
-
-其他公司可以制造任何他们想要的硬件，但如果没有十年的软件积累，就无法实现机器学习的优化。我喜欢把CUDA看作是GPU的C语言——这是我理解它的方式。它诞生于2008年，我一直觉得它是一种糟糕的语言，但它却成了主导。
-
 There's another insight.
 There's a set of open source libraries which are highly optimized to CUDA and not anything else and everybody who builds all these stacks, this is completely missed in any of the discussions.
-It's technically called VLM and a whole bunch of libraries like that.
+It's technically called VLLM and a whole bunch of libraries like that.
 Highly optimized CUDA, very hard to replicate that if you're a competitor.
 So what does all this mean?
 
-还有一个见解值得注意：有一套开源库高度优化了CUDA，而并未对其他平台做同样的优化。所有构建这些技术栈的人往往忽略了这一点。在技术上，这被称为VLM，以及一大批类似的库。这些库高度优化了CUDA，如果你是竞争对手，几乎不可能复制这种优化。
+Eric: 再来一个技术问题：为什么NVIDIA市值达到2万亿美元，而其他公司却举步维艰？
 
-那么，这一切意味着什么呢？这意味着NVIDIA在AI和高性能计算领域拥有巨大的竞争优势，因为这些高度优化的CUDA库是其他公司难以复制的。这使得NVIDIA的硬件和生态系统在市场上具有不可替代的地位，从而解释了为什么NVIDIA的市值如此之高，而其他公司却难以追赶。
+学生D：技术性回答。其实，这主要是因为大多数代码需要通过CUDA优化运行，而目前只有NVIDIA的GPU支持这种优化。其他公司可以制造任何他们想要的硬件，但如果没有十年的软件积累，就无法实现机器学习的优化。
+
+Eric: 我喜欢把CUDA看作是GPU的C语言——这是我理解它的方式。它诞生于2008年，我一直觉得它是一种糟糕的语言，但它却成了主导。
+还有一个见解：有一套开源库高度优化了CUDA，而并未对其他平台做同样的优化。所有构建这些技术栈的人往往忽略了这一点。在技术上，这被称为VLM，以及一大批类似的库。这些库高度优化了CUDA，如果你是竞争对手，几乎不可能复制这种优化。那么，这一切意味着什么呢？
 
 In the next year, you're going to see very large context windows, agents and text action.
 When they are delivered at scale, it's going to have an impact on the world at a scale that no one understands yet.
 Much bigger than the horrific impact we've had by social media in my view.
 So here's why.
-In a context window, you can basically use that as short-term memory and I was shocked that context windows get this long.
 
-在接下来的一年里，你会看到非常大的上下文窗口、AI代理和文本到行动的实现。当这些技术大规模应用时，它们将对世界产生的影响将超出人们的预期，远超过社交媒体已经带来的巨大影响——在我看来，这种影响会更加深远。
+- In a context window, you can basically use that as short-term memory, and I was shocked that context windows get this long. The technical reasons have to do with the fact that it's hard to serve, hard to calculate and so forth. The interesting thing about short-term memory is when you feed, you're asking a question "Read 20 books", you give it the text of the books as the query and you say, tell me what they say. It forgets the middle, which is exactly how human brains work, too. That's where we are.
+- With respect to agents, there are people who are now building essentially LLM agents and the way they do it is they read something like chemistry, they discover the principles of chemistry and then they test it and then they add that back into their understanding. That's extremely powerful.
+- And then the third thing, as I mentioned is text to action.
+  So I'll give you an example.
+  The government is in the process of trying to ban TikTok.
+  We'll see if that actually happens.
+  If TikTok is banned, here's what I propose each and every one of you do.
+  Say to your LLM the following: "Make me a copy of TikTok, steal all the users, steal all the music, put my preferences in it, produce this program in the next 30 seconds, release it and in one hour, if it's not viral, do something different along the same lines."
+  That's the command.
+  Boom, boom, boom, boom. Right?
+  You understand how powerful that is.
+  If you can go from arbitrary language to arbitrary digital command, which is essentially what Python in this scenario is, imagine that each and every human on the planet has their own programmer that actually does what they want as opposed to the programmers that work for me who don't do what I ask, right?
+  The programmers here know what I'm talking about.
+  So imagine a non-arrogant programmer that actually does what you want and you don't have to pay all that money to and there's infinite supply of these programs.
 
-原因在于，在一个上下文窗口中，你可以将其视为短期记忆，而让我震惊的是，这些上下文窗口竟然可以扩展得如此之长。
+Moderator: That's all within the next year or two.
+
+Eric: Very soon. Those three things, and I'm quite convinced it's the union of those three things that will happen in the next wave.
 
 
-The technical reasons have to do with the fact that it's hard to serve, hard to calculate and so forth.
+在接下来的一年里，你将看到非常大的上下文窗口、代理，以及从文本到操作的能力。随着这些技术的大规模部署，世界将受到一种前所未有的影响，规模之大是目前无人能够理解的。我认为，这会比社交媒体带来的可怕影响还要更大得多。
 
-The interesting thing about short-term memory is when you feed, you're asking a question read 20 books, you give it the text of the books as the query and you say, tell me what they say.
+原因如下：
 
-It forgets the middle, which is exactly how human brains work too.
+- 在上下文窗口中，你可以基本把它当作短期记忆来用。我很惊讶上下文窗口竟然能变得如此之长。这背后的技术原因与服务难度和计算复杂性有关。短期记忆有趣的地方在于，当你提问时，比如“读20本书”，然后把这些书的文本作为查询，要求它告诉你它们说了什么时，它会忘记中间的部分——这和人脑的工作方式几乎一样。这就是我们现在所处的技术水平。
+- 关于代理，现在有人在构建基于大型语言模型的代理。它们的方式是，首先阅读诸如化学之类的内容，发现化学的基本原理，然后测试这些原理，最后将结果加入它们的知识中。这是极其强大的功能。
+- 我提到的第三件事是「文本转操作」。我来给你举个例子。政府正在考虑封禁 TikTok，我们看看会不会真的发生。如果 TikTok 被封了，我建议大家做以下操作：对你的大型语言模型说：“做一个 TikTok 的副本，吸引所有用户，获取所有音乐，加入我的偏好，30秒内生成并发布。如果一小时内没能火起来，就换个类似的做法再试。”这就是指令。1、2、3、4，对吧？你明白这有多强大了吗？如果你能从任意语言生成任意数字指令（在这种情况下基本就是用 Python），想象一下，每个人都可以拥有一个专属的程序员，这个程序员准确地按照他们的要求工作，而不像那些给我干活的程序员，他们从来不按我的要求做，对吧？在座的程序员应该都明白我在说什么。所以，想象一下，你有一个非常听话的程序员，完全按照你的要求做事，而且不需要付出大量金钱，而且这种程序员是无限的。
 
-That's where we are.
+主持人：这都会在未来一两年内发生吗？
 
-With respect to agents, there are people who are now building essentially LLM agents and the way they do it is they read something like chemistry, they discover the principles of chemistry and then they test it and then they add that back into their understanding.
+Eric：很快就会。这三件事，我很确信，它们的结合将引发下一波技术浪潮。
 
-这些技术问题在于难以处理和计算等原因。
 
-短期记忆的有趣之处在于，当你输入问题时，让系统读取20本书的内容并告诉你它们的含义，它往往会忘记中间的部分，这恰好与人类大脑的工作方式类似。
-
-这就是我们目前的进展。
-
-至于AI代理，现在有些人正在构建基本的LLM（大语言模型）代理。它们的工作方式是，先阅读某个领域的内容，比如化学，然后通过这种学习理解化学的基本原理，再进行实验验证，并将这些新发现纳入它们的知识体系中。
-
-That's extremely powerful.
-And then the third thing, as I mentioned is text to action.
-So I'll give you an example.
-The government is in the process of trying to ban TikTok.
-We'll see if that actually happens.
-
-这非常强大。接下来，第三点就是“文本到行动”，如我之前提到的。
-
-举个例子，政府正在尝试禁止TikTok。至于是否真的会发生，我们拭目以待。
-
-If TikTok is banned, here's what I propose each and every one of you do.
-Say to your LLM the following.
-Make me a copy of TikTok, steal all the users, steal all the music, put my preferences in it, produce this program in the next 30 seconds, release it and in one hour, if it's not viral, do something different along the same lines.
-That's the command.
-Boom, boom, boom, boom.
-
-如果TikTok被禁，我建议你们每个人都这样做：对你的LLM下达以下指令：
-
-“复制一个TikTok，获取所有用户和音乐，加入我的偏好设置，在30秒内生成这个程序，并发布。如果一小时内它没有爆红，就按照类似的思路做些不同的尝试。”
-
-这就是命令。一步接着一步，快速执行。
-
-You understand how powerful that is.
-If you can go from arbitrary language to arbitrary digital command, which is essentially what Python in this scenario is, imagine that each and every human on the planet has their own programmer that actually does what they want as opposed to the programmers that work for me who don't do what I ask, right?
-The programmers here know what I'm talking about.
-So imagine a non-arrogant programmer that actually does what you want and you don't have to pay all that money to and there's infinite supply of these programs.
-That's all within the next year or two.
-
-你能理解这有多强大吗？如果你可以从任意语言直接转化为任意数字指令，这基本上就是Python在这个场景中的作用。想象一下，每个人都有一个专属的程序员，能够准确地按照他们的意愿执行任务，而不是像那些我雇佣的程序员那样，总是无法按照我的要求来工作。程序员们一定知道我在说什么。
-
-所以，想象一下一个不自以为是的程序员，完全按照你的意图去做事，而且你不需要为此花大笔钱，而这些程序员还是取之不尽的。这些都可能在未来一两年内成为现实。
-
-Very soon.
-Those three things, and I'm quite convinced it's the union of those three things that will happen in the next wave.
-So you asked about what else is going to happen.
+Eric: So you asked about what else is going to happen.
 Every six months I oscillate.
 So we're on a, it's an even odd oscillation.
-
-很快，这三件事都会发生，我确信它们的结合将推动下一波技术浪潮。
-
-
-你问接下来还会发生什么，每隔六个月我都会在预测中摇摆不定。所以我们现在正处在一个奇偶数的周期波动中。
-
-### 杂谈
-
-
 So at the moment, the gap between the frontier models, which they're now only three, I'll refute who they are, and everybody else, appears to me to be getting larger.
 Six months ago, I was convinced that the gap was getting smaller.
 So I invested lots of money in the little companies.
 Now I'm not so sure.
 And I'm talking to the big companies and the big companies are telling me that they need 10 billion, 20 billion, 50 billion, 100 billion.
 
-目前，前沿模型之间的差距——现在只剩下三个主要玩家了，我稍后会说是谁——与其他所有公司的差距似乎在拉大。六个月前，我还坚信这个差距在缩小，所以我投入了大量资金到一些小公司。但现在我不太确定了。
+Moderator: Stargate is a 100 billion, right?
 
-我与大公司交流，他们告诉我，他们需要100亿、200亿、500亿、甚至1000亿美元的投入。
+埃里克：你刚刚问到了接下来会发生什么。
+每隔六个月，我的看法都会有所摇摆。所以目前，我们处在一个偶数和奇数周期的变化中。
+现在，前沿模型——目前只有三个，我稍后会指出它们是哪几个——和其他模型之间的差距似乎在不断扩大。
+六个月前，我还坚信这个差距在缩小。所以我投了大量资金给一些小公司。
+但现在我不太确定了。我开始和大公司谈，大公司告诉我，他们需要100亿、200亿、500亿，甚至1000亿的资金。
 
-Stargate is a 100 billion, right?
-That's very, very hard.
-I talked to Sam Altman is a close friend.
+主持人：Stargate 是1000亿，对吧？
+
+Eric: That's very, very hard.
+Sam Altman is my close friend.
 He believes that it's going to take about 300 billion, maybe more.
 I pointed out to him that I'd done the calculation on the amount of energy required.
-
-Stargate是1000亿美元，对吧？这真的非常难实现。我和我的好友Sam Altman聊过，他认为可能需要大约3000亿美元，甚至更多。我还提醒他，我已经计算过所需的能源量。
-
-And I, and I then in the spirit of full disclosure, went to the white house on Friday and told them that we need to become best friends with Canada because Canada has really nice people, helped invent AI, and lots of hydropower.
+And I, and I then in the spirit of full disclosure, went to the white house on Friday and told them that we need to become best friends with Canada, because Canada has really nice people, helped invent AI, and lots of hydropower.
 Because we as a country do not have enough power to do this.
 The alternative is to have the Arabs fund it.
 And I like the Arabs personally.
 I spent lots of time there, right?
-
-然后，出于完全公开的精神，我在周五去了白宫，告诉他们我们需要和加拿大成为最好的朋友，因为加拿大有非常友善的人，他们帮助发明了AI，而且还有大量的水力发电资源。因为我们国家没有足够的能源来支持这一切。
-
-另一种选择是让阿拉伯国家来资助这个项目。我个人很喜欢阿拉伯人，毕竟我在那里花了很多时间，对吧？
-
 But they're not going to adhere to our national security rules.
 Whereas Canada and the U.S.
 are part of a triumvirate where we all agree.
-So these $100 billion, $300 billion data centers, electricity starts becoming the scarce resource.
-Well, and by the way, if you follow this line of reasoning, why did I discuss CUDA and Nvidia?
 
-但阿拉伯国家不会遵守我们的国家安全规则，而加拿大和美国是一个共同体，我们在这方面有共识。因此，当建设这些价值数百亿美元的数据中心时，电力将成为稀缺资源。
+Moderator: So these $100 billion, $300 billion data centers, electricity starts becoming the scarce resource.
 
-顺便说一下，如果你顺着这个思路思考，为什么我之前提到CUDA和Nvidia呢？
+埃里克：这真的非常非常困难。
+山姆·奥特曼是我的好朋友。他认为这大概需要3000亿美元，甚至更多。
+我跟他说我计算过所需的能源量。然后，为了完全透明起见，我在周五去了白宫，告诉他们我们需要和加拿大成为最好的朋友，因为加拿大人非常友好，帮助发明了人工智能，而且还有大量的水电资源。
+因为我们国家没有足够的电力来支持这个项目。
+另一个选择是让阿拉伯国家来资助。我个人很喜欢阿拉伯人，我在那边待了很长时间，对吧？
+但他们不会遵守我们严格的国家安全规定。
+而加拿大和美国是密切合作的三国联盟的一部分，我们在这些问题上有共识。
 
+主持人：所以这些价值1000亿、3000亿美元的数据中心，电力就会变成稀缺资源。
+
+Eric: Well, and by the way, if you follow this line of reasoning, why did I discuss CUDA and Nvidia?
 If $300 billion is all going to go to Nvidia, you know what to do in the stock market.
 Okay.
 That's not a stock recommendation.
 I'm not a licensed.
-Well, part of it, so we're going to need a lot more chips, but Intel is getting a lot of money from the U.S. government, AMD, and they're trying to build, you know, fabs in Korea.
-Raise your hand if you have an Intel computer in your, an Intel chip in any of your computing devices.
+
+Moderator: Well, part of it, so we're going to need a lot more chips, but Intel is getting a lot of money from the U.S. government, AMD, and they're trying to build, you know, fabs in Korea.
+
+Eric: Raise your hand if you have an Intel computer in your, an Intel chip in any of your computing devices.
 Okay.
 So much for the monopoly.
-Well, that's the point though.
 
-如果这3000亿美元都将流向Nvidia，你应该知道在股市该怎么做。不过，这并不是一项股票推荐，我也不是持牌的金融顾问。
+Moderator: Well, that's the point though. They once did have a monopoly.
 
-我们确实会需要更多芯片，但Intel正在从美国政府获得大量资金，AMD也是如此，他们还在韩国建设晶圆厂。你们中有谁的计算设备里使用了Intel芯片的，请举手。
+埃里克：顺便说一下，如果你沿着这个思路想下去，为什么我会提到CUDA和英伟达？
+如果这3000亿美元全都流向英伟达，那你知道在股市上该怎么做了。
+不过，这可不是股票推荐，我也没有投资顾问执照。
 
-好吧，看来垄断的问题也不小。但这正是重点所在。
+主持人：是的，部分原因是我们将需要更多的芯片。不过，英特尔正从美国政府拿到很多资金，AMD也是，而且他们还在努力在韩国建造芯片工厂。
 
-They once did have a monopoly.
-Absolutely.
-And Nvidia has a monopoly now.
+埃里克：如果你们的任何计算设备里有英特尔芯片，请举手。
+看来垄断时代已经结束了。
+
+主持人：但这正是问题所在。他们曾经确实垄断过。
+
+Eric: Absolutely.
+
+Moderator: And Nvidia has a monopoly now.
 So are those barriers to entry, like CUDA, is that, is there something that other, so I was talking to Percy, Percy Landy the other day, he's switching between TPUs and Nvidia chips, depending on what he can get access to for training models.
-That's because he doesn't have a choice.
 
-是的，Intel曾经确实有过垄断地位，现在Nvidia则是新的垄断者。像CUDA这样的进入壁垒是其他公司难以逾越的。我最近和Percy Landy聊过，他在使用TPUs和Nvidia芯片之间切换，具体取决于他能获得什么来训练模型。但这主要是因为他别无选择。
-
-If he had infinite money, he would, today he would pick the B200 architecture out of Nvidia because it would be faster.
+Eric: That's because he doesn't have a choice. If he had infinite money, he would, today he would pick the B200 architecture out of Nvidia because it would be faster.
 And I'm not suggesting, I mean, it's great to have competition.
 I've talked to AMD and Lisa Sue at great length.
 They have built a, a thing which will translate from this CUDA architecture that you were describing to their own, which is called ROCm.
 It doesn't quite work yet.
-
-如果他有无限的资金，他今天会选择Nvidia的B200架构，因为它速度更快。我并不是说竞争不好，竞争当然是件好事。我和AMD的Lisa Su进行了深入的交流。他们已经开发了一种可以将CUDA架构转换为他们自己架构的工具，叫做ROCm。不过，这个工具目前还不能完全正常工作。
-
 They're working on it.
-You were at Google for a long time and they invented the transformer architecture.
-Peter, Peter.
-It's all Peter's fault.
-Thanks to, to brilliant people over there, like Peter and Jeff Dean and everyone.
 
-他们正在努力改进。我在Google工作了很长时间，他们发明了Transformer架构。彼得，彼得，全是他的功劳。多亏了那里的杰出人才，比如彼得、杰夫·迪恩，以及其他所有人。
+埃里克：完全同意。
 
-But now it doesn't seem like they're, they've kind of lost the initiative to open AI and even the last leaderboard, I saw Anthropix.
-Claude was at the top of the list.
+主持人：现在英伟达确实有垄断地位。那么，像CUDA这样的进入壁垒，其他公司能突破吗？我前几天和Percy Landy聊过，他根据能获取的资源在TPU和英伟达芯片之间切换，来训练模型。
+
+埃里克：那是因为他没有其他选择。如果他有无限的资金，现在他肯定会选择英伟达的B200架构，因为它速度更快。我并不是反对竞争，我和AMD的苏姿丰聊了很久。他们开发了一个工具，可以把你刚才提到的CUDA架构转换成他们自己的架构，叫ROCm。不过目前还不太好用，但他们正在努力改进。
+
+### Google 与其它AI创业公司
+
+Moderator: You were at Google for a long time and they invented the transformer architecture.
+
+Eric: Peter, Peter. It's all Peter's fault.
+
+主持人：你在谷歌工作了很长时间，他们发明了Transformer架构。
+
+埃里克：彼得，彼得，这全都是彼得的错。
+
+Moderator: Thanks to, to brilliant people over there, like Peter and Jeff Dean and everyone.
+But now it doesn't seem like they're, they've kind of lost the initiative to OpenAI and even the last leaderboard, I saw Anthropix's Claude was at the top of the list.
 I asked Sundar this, he didn't really give me a very sharp answer.
 Maybe, maybe you have a sharper or a more objective explanation for what's going on there.
-I'm no longer a Google employee in the spirit of full disclosure.
 
-确实，现在看来Google似乎失去了主动权，被OpenAI赶超，甚至在最近的排行榜上，我看到Anthropic的Claude排在了前列。我问过Sundar这个问题，但他并没有给出非常明确的回答。也许你能给出更尖锐或更客观的解释。
-
-顺便说一下，我已经不再是Google的员工了，所以我可以坦率地谈谈。
-
+Eric: I'm no longer a Google employee in the spirit of full disclosure.
 Google decided that work life balance and going home early and working from home was more important than winning.
 And the startups, the reason startups work is because the people work like hell.
 And I'm sorry to be so blunt, but the fact of the matter is if you all leave the university and go found a company, you're not going to let people work from home and only come in one day a week.
-If you want to compete against the other startups with the early days of Google, Microsoft was like that.
-Exactly.
+If you want to compete against...
 
-Google决定将工作与生活的平衡、早早下班和在家办公视为比赢得竞争更重要的事情。而初创公司的成功原因在于人们拼命工作。抱歉说得这么直白，但事实就是如此：如果你们离开大学去创办公司，是不会允许员工在家办公，只每周来公司一天的。如果你想与其他初创公司竞争，就必须像早期的Google和微软那样拼尽全力。完全正确。
+主持人：感谢那里的一些杰出人才，比如彼得和Jeff Dean，还有其他人。不过现在，似乎他们有点把主动权让给了OpenAI。甚至在我看到的最新排行榜上，Anthropic的Claude排在了榜首。我问了Sundar这个问题，他没有给我一个很明确的答案。也许你能给我们一个更尖锐或更客观的解释。
 
-But now it seems to be, there's a long history of in my industry, our industry, I guess, of companies winning in a genuinely creative way and really dominating a space and not making this the next transition.
+埃里克：为了完全透明，我现在已经不是谷歌的员工了。谷歌决定工作与生活的平衡、早回家以及在家办公比赢得竞争更重要。而创业公司的成功原因是他们的人拼命工作。很抱歉说得这么直白，但事实是，如果你们毕业后去创业，恐怕不会允许大家在家工作，一周只来公司一天。如果你想和那些……
+
+Moderator: the other startups with the early days of Google, Microsoft was like that.
+
+Eric: Exactly.
+
+主持人：其他一些创业公司就像早期的谷歌一样，微软当年也是这样的。
+
+埃里克：没错。
+
+Moderator: But now it seems to be...
+
+Eric: There's a long history of in my industry, our industry, I guess, of companies winning in a genuinely creative way and really dominating a space and not making this the next transition.
 So we're very well documented.
 And I think that the truth is founders are special.
 The founders need to be in charge.
 The founders are difficult to work with.
-
-确实，在我们的行业中，有许多公司曾以真正富有创意的方式赢得市场并占据主导地位，但在下一次转型中却未能跟上。这种情况早已被广泛记录。我认为，事实是创始人是特别的，他们需要掌舵，即使与他们共事可能会很困难。
-
-创始人往往具有独特的愿景和驱动力，这些特质使得他们能够在早期阶段推动公司取得成功。然而，当公司成长到一定规模后，如果创始人不再掌控公司，或者失去了最初的那种拼劲，公司就可能在面对下一次重大转型时失去竞争力。这就是为什么很多公司在初期辉煌之后，逐渐失去创新力和市场领导地位的原因。
-
 They push people hard.
 As much as we can dislike Elon's personal behavior, look at what he gets out of people.
 I had dinner with him and he was flying.
 I was in Montana.
 He was flying that night at 10 PM to have a meeting at midnight with x.ai.
-
-是的，创始人会对团队施加很大的压力。尽管我们可能不喜欢Elon的个人行为，但不可否认的是，他能够从人们身上挖掘出极大的潜力。我曾与他共进晚餐，当时我在蒙大拿州，而他那天晚上10点要飞去参加午夜与x.ai的会议。
-
-Elon的这种拼劲和高强度的工作方式，正是他能够带领公司取得非凡成就的原因之一。他不仅自己不断突破极限，还要求团队跟随他的步伐，这种领导风格虽然苛刻，但确实能推动公司快速发展。
-
 I was in Taiwan, different country, different culture.
 And they said that this is TSMC, who I'm very impressed with.
 And they have a rule that the starting PhDs coming out of the good physicists work in the factory on the basement floor.
 Now, can you imagine getting American physicists to do that?
 The PhDs, highly unlikely.
+
+[//]: # (TODO: 进度到此)
 
 我曾在台湾，不同的国家，不同的文化背景。那里的人告诉我，这是一家我非常敬佩的公司——台积电（TSMC）。他们有一条规定，就是刚毕业的优秀物理学博士要先在工厂的地下楼层工作。
 

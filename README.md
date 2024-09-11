@@ -1,20 +1,26 @@
 # Stanford_ECON295 / CS323_I_2024_I_The_Age_of_AI,_Eric_Schmidt
 
-> [@宝玉xp](https://weibo.com/u/1727858283) 找出了原视频，详见[这个链接](https://bilibili.com/video/BV1Fy411v7jt)
+> [@宝玉xp](https://weibo.com/u/1727858283) 找出了原视频，发到了[B站](https://bilibili.com/video/BV1Fy411v7jt)，字幕在[Github](https://github.com/JimLiu/translations/blob/main/Stanford%20CS323%20I%202024%20I%20The%20Age%20of%20AI%2C%20Eric%20Schmidt/Stanford%20CS323%20I%202024%20I%20The%20Age%20of%20AI%2C%20Eric%20Schmidt.en.srt)
 >
 > 原英文脚本在此：https://github.com/ociubotaru/transcripts，有改动
+>
+> 想要更好的阅读体验，可以到[这个网页](https://www.aicando.xyz/ai/CS323_I_2024_I_The_Age_of_AI_Eric_Schmidt)
 
 <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=1956457312&bvid=BV1Fy411v7jt&cid=1653463414&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
 Moderator: Today's guest really does not need an introduction.
 I think I first met Eric about 25 years ago when he came to Stanford Business School as CEO of Novell.
 He's had done a few things since then at Google starting I think 2001 and Schmidt Futures starting in 2017 and done a whole bunch of other things you can read about, but he can only be here until 5/15, so I thought we'd dive right into some questions, and I know you guys have sent some as well.
-I have a bunch written here, but what we just talked about upstairs was even more interesting, so I'm just going to start with that, Eric, if that's okay, which is where do you see AI going in the short term, which I think you defined as the next year or two?
+I have a bunch written here, but what we just talked about upstairs was even more interesting, so I'm just going to start with that, Eric, if that's okay, which is:
 
 
-主持人：今天的嘉宾不需要过多介绍。我记得我大约是在25年前第一次见到Eric，当时他作为Novell的首席执行官来到斯坦福商学院。从那以后，他在谷歌做了几件事情，我记得大概是从2001年开始的，然后在2017年启动了Schmidt Futures基金，并且完成了许多其他成就，大家可以自行查阅。不过他今天只能停留到5点15分，所以我想我们直接进入提问环节。我知道你们也提交了一些问题，我这边也写了不少问题，但我们刚刚在楼上的谈话更有趣。所以，如果可以的话，埃里克，我想从那个话题开始：你认为在短期内，也就是一两年内，人工智能会如何发展？
+主持人：今天的嘉宾不需要过多介绍。我记得我大约是在25年前第一次见到Eric，当时他作为Novell的首席执行官来到斯坦福商学院。从那以后，他在谷歌做了几件事情，我记得大概是从2001年开始的，然后在2017年启动了Schmidt Futures基金，并且完成了许多其他成就，大家可以自行查阅。不过他今天只能停留到5点15分，所以我想我们直接进入提问环节。我知道你们也提交了一些问题，我这边也写了不少问题，但我们刚刚在楼上的谈话更有趣。所以，如果可以的话，埃里克，我想从那个话题开始：
 
 ## AI在一两年内的发展
+
+Moderator: where do you see AI going in the short term, which I think you defined as the next year or two?
+
+主持人：你认为在短期内，也就是一两年内，人工智能会如何发展？
 
 Eric: Things have changed so fast, I feel like every six months I need to sort of give a new speech on what's going to happen.
 
@@ -22,16 +28,17 @@ Eric: Things have changed so fast, I feel like every six months I need to sort o
 
 ### 上下文窗口
 
-Eric: Can anybody here, the computer, a budget of computer science engineer, can anybody explain what a million-token context window is for the rest of the class?
+Eric: Can anybody here, the computer, a bunch of computer science engineer, can anybody explain what a million-token context window is for the rest of the class?
 
 Moderator: Over here.
 
 Eric: So, say your name, tell us what it does.
 
 Student A: Basically it allows you to prompt with like a million tokens or a million words or whatever.
-So you can ask a million-word question.
 
-Student A: Yes, I know this is a very large direction in <???>.
+Eric: So you can ask a million-word question.
+
+Student A: Yes, I know this is a very large direction in <???> right now.
 
 Eric: No, they're going to 10.
 
@@ -45,9 +52,11 @@ Eric: Yes. And then Anthropic is at 200,000 going to a million, and so forth. Yo
 
 埃里克：好的，先介绍一下你自己，然后告诉我们它的作用是什么。
 
-学生A：基本上，它让你可以输入大约一百万个标记、单词或其他内容。所以你可以提出一个包含一百万字的问题。
+学生A：基本上，它让你可以输入大约一百万个标记、单词或其他内容。
 
-学生A：是的，我知道这是一个非常重要的发展方向。
+Eric: 所以你可以提出一个包含一百万字的问题。
+
+学生A：是的，我知道这是<听不清>的重要的发展方向。
 
 埃里克：不，他们的目标是1000万。
 
@@ -57,40 +66,55 @@ Eric: Yes. And then Anthropic is at 200,000 going to a million, and so forth. Yo
 
 ### AI Agent
 
-Eric: Can anybody here give a technical definition of an AI agent? Yes, sir.
+Eric: Can anybody here give a technical definition of an AI agent? Again, I figure you're scientists. 
 
-Student B: I'm Jared. An AI agent is something that does some kind of a task. So that might be calling things on the web, things on your behalf, it could be a number of different things, along these lines. There are various things that are possible.
+Eric: Yes, sir.
 
-Eric: So an AI agent is something that does some kind of a task. Another definition would be that it's an LLM, state in memory.
+Student B: I'm Jared.
+An AI agent is something that does some kind of task.
+So that might be calling things on the web, things on your behalf,
+and it could be a number of different things, along these lines.
+There are various things that are possible.
 
-Eric：这里有人能给出 AI 代理的技术定义吗？是的，先生。
+Eric: So an AI agent is something that does some kind of task.
+
+Eric: Another definition would be that it's an LLM, state and memory.
+
+Eric：这里有人能给出 AI 代理的技术定义吗？我觉得你们都是计算机科学家。
+
+Eric：你来。
 
 学生 B：我是 Jared。AI 代理是执行某种任务的东西。因此，这可能是在网络上调用某些东西，代表您调用某些东西，可能是许多不同的东西，大致如此。有各种可能。
 
-Eric：因此，AI 代理是执行某种任务的东西。另一个定义是，它是 LLM，即内存中的状态。
+Eric：因此，AI 代理是执行某种任务的东西。
+
+Eric：另一个定义是，它是 LLM，带有状态与记忆。
 
 Eric: Can anybody, again, computer scientists, can any of you define text to action?
 
-Taking text and turning it into an action?
+Eric: Taking text and turning it into an action.
 
-Right here.
+Moderator: Right here.
 
-Go ahead.
+Eric: Go ahead.
 
-Yes, instead of taking text and turning it into more text, more text, taking text and have the AI trigger actions.
+Student C: Yes, instead of taking text and turning it into more text, taking text and have the AI trigger actions.
 
-So another definition would be language to Python, a programming language I never wanted to see survive and everything in AI is being done in Python.
+Eric: So another definition would be language to Python, a programming language I never wanted to see survive and everything in AI is being done in Python. There's a new language called Mojo that has just come out, which looks like they finally have addressed AI programming, but we'll see if that actually survives over the dominance of Python.
 
-There's a new language called Mojo that has just come out, which looks like they finally have addressed AI programming, but we'll see if that actually survives over the dominance of Python.
+Eric: 计算机科学家们，你们中有谁能定义“文本转行动”？
 
+Eric: 拿到文本，然后将它转化为行动。
 
-把文本转换成行动，对吗？
+主持人：这边这位。
 
-没错，请继续。
+Eric: 请。
 
-是的，和简单地将文本转换为更多文本不同，这里是指让AI根据文本触发具体的行动。另一种定义可以是将语言转换为Python代码——虽然我从没想过Python会存活下来，但现在AI的一切几乎都是用Python来实现的。
+学生C：是的，和简单地将文本转换为更多文本不同，这里是指让AI根据文本触发具体的行动。
 
-最近刚推出了一种名为Mojo的新语言，看来它终于专门针对AI编程做了优化，但我们还得看看它是否能真正打破Python的主导地位。
+Eric: 也就是说，另一种定义可以是将语言转换为Python代码——虽然我不想看到Python，但现在AI的一切几乎都是用Python来实现的。最近刚推出了一种名为Mojo的新语言，看来它终于专门针对AI编程做了优化，但我们还得看看它是否能真正打破Python的主导地位。
+
+### NVIDIA
 
 One more technical question. Why is NVIDIA worth $2 trillion and the other companies are struggling?
 

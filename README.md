@@ -16,7 +16,9 @@ I have a bunch written here, but what we just talked about upstairs was even mor
 
 主持人：今天的嘉宾不需要过多介绍。我记得我大约是在25年前第一次见到Eric，当时他作为Novell的首席执行官来到斯坦福商学院。从那以后，他在谷歌做了几件事情，我记得大概是从2001年开始的，然后在2017年启动了Schmidt Futures基金，并且完成了许多其他成就，大家可以自行查阅。不过他今天只能停留到5点15分，所以我想我们直接进入提问环节。我知道你们也提交了一些问题，我这边也写了不少问题，但我们刚刚在楼上的谈话更有趣。所以，如果可以的话，埃里克，我想从那个话题开始：
 
-## AI在一两年内的发展
+## 主持人的系列问题
+
+### AI在一两年内的发展
 
 Moderator: where do you see AI going in the short term, which I think you defined as the next year or two?
 
@@ -507,63 +509,53 @@ And if anyone knows Marjorie Taylor Greene, I would encourage you to delete her 
 
 ### 知识本质与演变
 
-I want to switch to a little bit of a philosophical question.
-So there was an article that you and Henry Kissinger and Dan Huttenlecker wrote last year about the nature of knowledge and how it's evolving.
+Moderator: I want to switch to a little bit of a philosophical question.
+So there was an article that you and Henry Kissinger and Dan Huttenlocher wrote last year about the nature of knowledge and how it's evolving.
 I had a discussion the other night about this as well.
-
-我想转向一个稍微哲学性的问题。去年你和亨利·基辛格以及丹·赫特滕勒克共同撰写了一篇文章，讨论了知识的本质及其演变。我最近也和人讨论了这个话题。
-
 So for most of history, humans sort of had a mystical understanding of the universe and then there's the scientific revolution and the enlightenment.
 And in your article, you argue that now these models are becoming so complicated and difficult to understand that we don't really know what's going on in them.
 I'll take a quote from Richard Feynman.
 He says, "What I cannot create, I do not understand." I saw this quote the other day.
 But now people are creating things that they can create, but they don't really understand what's inside of them.
-
-历史上，大部分时间里，人类对宇宙的理解都带有神秘色彩，直到科学革命和启蒙运动的到来。在你们的文章中，你们认为现在的模型变得如此复杂和难以理解，以至于我们实际上并不完全了解其中的运作原理。
-
-引用理查德·费曼的一句话：“我不能创造的东西，我就不能理解。” 我最近看到了这句话。然而，现在人们在创造一些他们能够创造的东西时，却并不真正理解其内部的运作。这种情况引发了关于知识和理解本质的深刻思考。
-
-随着AI和其他复杂系统的发展，我们开始进入一个领域，在这个领域中，即使我们能够设计和构建这些系统，但对它们的内部机制和运作方式却缺乏全面的理解。这对科学的传统观念提出了挑战：我们是否真的需要完全理解一个系统，才能真正控制或利用它？这种不完全理解的创造过程，可能会带来意想不到的后果，也促使我们重新思考知识的本质以及人类在技术进步中的角色。
-
 Is the nature of knowledge changing in a way?
 Are we going to have to start just taking the word for these models without them being able to explain it to us?
-The analogy I would offer is to teenagers.
+
+主持人：我想转换一个稍微哲学性的问题。
+去年，您、亨利·基辛格和丹·赫滕洛赫共同撰写了一篇关于知识本质及其演变的文章。我前几天晚上也讨论了这个话题。
+在人类历史的大部分时间里，人类对宇宙的理解带有神秘主义色彩，直到科学革命和启蒙运动。而在您的文章中，您认为现在这些模型变得如此复杂和难以理解，以至于我们实际上不知道它们内部发生了什么。
+让我引用理查德·费曼的一句话：“如果我不能创造它，那我就不理解它。”我最近刚看到这句话。
+但现在，人们可以创造一些东西，却不真正理解它们的内部原理。
+知识的本质是否正在发生变化？我们是否将不得不开始接受这些模型的结论，而它们却无法向我们解释其工作原理？
+
+Eric: The analogy I would offer is to teenagers.
 If you have a teenager, you know they're human, but you can't quite figure out what they're thinking.
-But somehow we've managed in society to adapt to the presence of teenagers and they eventually grow out of it.
-
-知识的本质是否正在发生变化？我们是否需要开始接受这些模型的结果，而它们却无法向我们解释其原理？我可以用青少年来做一个类比。如果你有青少年子女，你知道他们是人类，但很难确切理解他们在想什么。然而，社会已经学会了适应青少年的存在，他们最终也会成熟起来。
-
-类似地，随着AI模型的复杂性增加，我们可能不得不接受这样一种现实：即使我们无法完全理解这些模型的内部运作，我们仍然要依赖它们的输出。这种情况挑战了我们对知识的传统理解——即知识应该是可解释和可理解的。然而，随着技术的发展，我们或许需要适应一种新的认知方式，在其中，我们接受一些系统的结果和决策，而不完全理解其背后的复杂性。
-
-这种转变可能意味着知识的本质在某种程度上发生了变化。我们或许需要建立新的信任机制和评价标准，以适应这一变化。这并不是说我们放弃了理解的追求，而是承认在某些情况下，理解可能是相对的，而不是绝对的。随着时间的推移，就像青少年最终成熟一样，我们可能会逐渐找到与这些复杂系统共存的方式。
-
+But somehow we've managed in society to adapt to the presence of teenagers, and they eventually grow out of it.
 I'm just serious.
+
 So it's probably the case that we're going to have knowledge systems that we cannot fully characterize, but we understand their boundaries.
 We understand the limits of what they can do.
 And that's probably the best outcome we can get.
-Do you think we'll understand the limits?
 
-我很认真地认为，我们可能确实会拥有一些无法完全描述的知识系统，但我们能够理解它们的边界，了解它们能力的极限。这可能是我们能达到的最理想结果。
+埃里克：我会做个类比，就像青少年。如果你有一个青少年，你知道他们是人类，但你却很难搞清楚他们在想什么。不过，社会上我们还是设法适应了青少年的存在，而且他们最终会成熟。我是认真的。
 
-至于是否能真正理解这些系统的极限，这将取决于我们如何定义和测试这些系统。虽然我们可能无法彻底理解每一个细节，但通过实验、观察和反复验证，我们或许能够确立这些系统的操作范围和可靠性。这种理解可能不是全知全解的，但足以让我们安全、有效地使用这些技术。
+所以，很可能我们将会拥有一些我们无法完全描述的知识系统，但我们能够理解它们的边界，了解它们的能力限制。这可能是我们能得到的最好的结果了。
 
-然而，挑战在于，随着这些系统的复杂性不断增加，它们的行为和输出可能变得更加难以预测。即使我们对其能力和限制有一定了解，仍然存在未知的风险和潜在的意外结果。因此，我们需要持续探索和测试，以确保我们对这些系统的理解始终与其发展保持同步。这种动态理解过程将是持续的，但也是推动技术进步和安全应用的重要手段。
+Moderator: Do you think we'll understand the limits?
 
-We'll get pretty good at it.
-The consensus of my group that meets every week is that eventually the way you'll do this so-called adversarial AI is that there will actually be companies that you will hire and pay money to to break your AI system.
-Like Red Team.
-So instead of human Red Teams, which is what they do today, you'll have whole companies and a whole industry of AI systems whose jobs are to break the existing AI systems and find their vulnerabilities, especially the knowledge that they have that we can't figure out.
+Eric: We'll get pretty good at it.
+The consensus of my group that meets every week is that eventually the way you'll do this so-called adversarial AI, is that there will actually be companies that you will hire and pay money to to break your AI system.
+
+Moderator: Like Red Team.
+
+Eric: So instead of human Red Teams, which is what they do today, you'll have whole companies and a whole industry of AI systems whose jobs are to break the existing AI systems and find their vulnerabilities, especially the knowledge that they have that we can't figure out.
 That makes sense to me.
-
-我们会在这方面变得相当出色。我们小组每周讨论的共识是，未来所谓的对抗性AI将会由专门的公司负责，你可以花钱雇佣他们来破坏你的AI系统，就像现在的“红队”一样。所以，未来不再是由人类红队来进行测试，而是会有整个公司和行业专注于开发AI系统，专门用于攻破现有的AI系统并发现其漏洞，特别是那些我们难以理解的知识。这在我看来是有道理的。
-
 It's also a great project for you here at Stanford, because if you have a graduate student who has to figure out how to attack one of these large models and understand what it does, that is a great skill to build the next generation.
 So it makes sense to me that the two will travel together.
 
 
 这也是斯坦福大学一个很好的研究项目，因为如果有研究生需要研究如何攻击这些大型模型并了解它们的运行原理，那将是为下一代培养重要技能的绝佳机会。所以我认为，这两者会相辅相成地发展。
 
-## 问答
+## 现场问答
 
 All right, let's take some questions from the student.
 There's one right there in the back.
@@ -1305,7 +1297,7 @@ So there's both of those things going on.
 
 Quick question over there.
 
-## 第二位讲者补充
+## 主持人补充
 
 :::info 主讲者(Eric)似乎已经走了
 :::

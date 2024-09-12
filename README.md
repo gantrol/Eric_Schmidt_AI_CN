@@ -38,7 +38,7 @@ Student A: Basically it allows you to prompt with like a million tokens or a mil
 
 Eric: So you can ask a million-word question.
 
-Student A: Yes, I know this is a very large direction in <???> right now.
+Student A: Yes, I know this is a very large direction in ??? right now.
 
 Eric: No, they're going to 10.
 
@@ -54,7 +54,7 @@ Eric: Yes. And then Anthropic is at 200,000 going to a million, and so forth. Yo
 
 学生A：基本上，它让你可以输入大约一百万个标记、单词或其他内容。
 
-Eric: 所以你可以提出一个包含一百万字的问题。
+埃里克：所以你可以提出一个包含一百万字的问题。
 
 学生A：是的，我知道这是<听不清>的重要的发展方向。
 
@@ -80,15 +80,15 @@ Eric: So an AI agent is something that does some kind of task.
 
 Eric: Another definition would be that it's an LLM, state and memory.
 
-Eric：这里有人能给出 AI 代理的技术定义吗？我觉得你们都是计算机科学家。
+埃里克：这里有人能给出 AI 代理的技术定义吗？我觉得你们都是计算机科学家。
 
-Eric：你来。
+埃里克：你来。
 
 学生 B：我是 Jared。AI 代理是执行某种任务的东西。因此，这可能是在网络上调用某些东西，代表您调用某些东西，可能是许多不同的东西，大致如此。有各种可能。
 
-Eric：因此，AI 代理是执行某种任务的东西。
+埃里克：因此，AI 代理是执行某种任务的东西。
 
-Eric：另一个定义是，它是 LLM，带有状态与记忆。
+埃里克：另一个定义是，它是 LLM，带有状态与记忆。
 
 Eric: Can anybody, again, computer scientists, can any of you define text to action?
 
@@ -102,17 +102,17 @@ Student C: Yes, instead of taking text and turning it into more text, taking tex
 
 Eric: So another definition would be language to Python, a programming language I never wanted to see survive and everything in AI is being done in Python. There's a new language called Mojo that has just come out, which looks like they finally have addressed AI programming, but we'll see if that actually survives over the dominance of Python.
 
-Eric: 计算机科学家们，你们中有谁能定义「文本转行动」？
+埃里克：计算机科学家们，你们中有谁能定义「文本转行动」？
 
-Eric: 拿到文本，然后将它转化为行动。
+埃里克：拿到文本，然后将它转化为行动。
 
 主持人：这边这位。
 
-Eric: 请。
+埃里克：请。
 
 学生C：是的，和简单地将文本转换为更多文本不同，这里是指让AI根据文本触发具体的行动。
 
-Eric: 也就是说，另一种定义可以是将语言转换为Python代码——虽然我不想看到Python，但现在AI的一切几乎都是用Python来实现的。最近刚推出了一种名为Mojo的新语言，看来它终于专门针对AI编程做了优化，但我们还得看看它是否能真正打破Python的主导地位。
+埃里克：也就是说，另一种定义可以是将语言转换为Python代码——虽然我不想看到Python，但现在AI的一切几乎都是用Python来实现的。最近刚推出了一种名为Mojo的新语言，看来它终于专门针对AI编程做了优化，但我们还得看看它是否能真正打破Python的主导地位。
 
 ### NVIDIA
 
@@ -134,14 +134,14 @@ It's technically called VLLM and a whole bunch of libraries like that.
 Highly optimized CUDA, very hard to replicate that if you're a competitor.
 So what does all this mean?
 
-Eric: 再来一个技术问题：为什么NVIDIA市值达到2万亿美元，而其他公司却举步维艰？
+埃里克：再来一个技术问题：为什么NVIDIA市值达到2万亿美元，而其他公司却举步维艰？
 
 学生D：技术性回答。其实，这主要是因为大多数代码需要通过CUDA优化运行，而目前只有NVIDIA的GPU支持这种优化。其他公司可以制造任何他们想要的硬件，但如果没有十年的软件积累，就无法实现机器学习的优化。
 
-Eric: 我喜欢把CUDA看作是GPU的C语言——这是我理解它的方式。它诞生于2008年，我一直觉得它是一种糟糕的语言，但它却成了主导。
+埃里克：我喜欢把CUDA看作是GPU的C语言——这是我理解它的方式。它诞生于2008年，我一直觉得它是一种糟糕的语言，但它却成了主导。
 还有一个见解：有一套开源库高度优化了CUDA，而并未对其他平台做同样的优化。所有构建这些技术栈的人往往忽略了这一点。在技术上，这被称为VLM，以及一大批类似的库。这些库高度优化了CUDA，如果你是竞争对手，几乎不可能复制这种优化。那么，这一切意味着什么呢？
 
-In the next year, you're going to see very large context windows, agents and text action.
+Eric: In the next year, you're going to see very large context windows, agents and text action.
 When they are delivered at scale, it's going to have an impact on the world at a scale that no one understands yet.
 Much bigger than the horrific impact we've had by social media in my view.
 So here's why.
@@ -166,7 +166,7 @@ Moderator: That's all within the next year or two.
 Eric: Very soon. Those three things, and I'm quite convinced it's the union of those three things that will happen in the next wave.
 
 
-在接下来的一年里，你将看到非常大的上下文窗口、代理，以及从文本到操作的能力。随着这些技术的大规模部署，世界将受到一种前所未有的影响，规模之大是目前无人能够理解的。我认为，这会比社交媒体带来的可怕影响还要更大得多。
+埃里克：在接下来的一年里，你将看到非常大的上下文窗口、代理，以及从文本到操作的能力。随着这些技术的大规模部署，世界将受到一种前所未有的影响，规模之大是目前无人能够理解的。我认为，这会比社交媒体带来的可怕影响还要更大得多。
 
 原因如下：
 
@@ -176,7 +176,7 @@ Eric: Very soon. Those three things, and I'm quite convinced it's the union of t
 
 主持人：这都会在未来一两年内发生吗？
 
-Eric：很快就会。这三件事，我很确信，它们的结合将引发下一波技术浪潮。
+埃里克：很快就会。这三件事，我很确信，它们的结合将引发下一波技术浪潮。
 
 
 Eric: So you asked about what else is going to happen.
@@ -317,21 +317,15 @@ And they have a rule that the starting PhDs coming out of the good physicists wo
 Now, can you imagine getting American physicists to do that?
 The PhDs, highly unlikely.
 
-[//]: # (TODO: 进度到此)
+主持人：但现在似乎……
 
-我曾在台湾，不同的国家，不同的文化背景。那里的人告诉我，这是一家我非常敬佩的公司——台积电（TSMC）。他们有一条规定，就是刚毕业的优秀物理学博士要先在工厂的地下楼层工作。
+埃里克：在我们的行业中，有很多公司通过真正有创造性的方式赢得了竞争，主导了某个领域，但却没能完成下一个阶段的转型。这种情况有很多记录。我认为，创始人是特别的。创始人必须掌控大局。创始人往往不好相处，他们对员工要求很高。尽管我们可能不喜欢埃隆的个人行为，但看看他从员工身上得到的成果。我和他吃过晚饭，当时我在蒙大拿，而他那天晚上10点要飞去参加一个午夜的x.ai会议。我还去过台湾，那里是完全不同的国家和文化。我对台积电印象很深，他们有个规定，新入职的物理学博士必须在工厂的地下层工作。你能想象让美国的物理学博士去做这样的工作吗？几乎不可能。
 
-你能想象让美国的物理学博士去做这种事吗？几乎不可能。
-
-Different work ethic.
+Eric: Different work ethic.
 And the problem here, the reason I'm being so harsh about work is that these are systems which have network effects.
 So time matters a lot.
 And in most businesses, time doesn't matter that much.
 You have lots of time.
-
-不同的工作伦理。这也是我对工作要求如此苛刻的原因——这些系统具有网络效应，所以时间非常关键。而在大多数行业中，时间可能并不那么重要，你有充裕的时间去慢慢发展。
-
-但在涉及网络效应的行业，时间就是一切。先发优势和快速迭代对于赢得市场至关重要，错过了时机，就可能失去整个市场。
 
 Coke and Pepsi will still be around and the fight between Coke and Pepsi will continue to go on and it's all glacial.
 When I dealt with telcos, the typical telco deal would take 18 months to sign.
@@ -339,209 +333,175 @@ There's no reason to take 18 months to do anything.
 Get it done.
 We're in a period of maximum growth, maximum gain.
 
-可口可乐和百事可乐依然会存在，它们之间的竞争将继续缓慢进行。处理电信公司事务时，一笔典型的电信交易通常需要18个月才能签署。这其实完全没有必要，18个月可以做很多事。
-
-当前，我们正处于一个最大化增长和收益的时期。抓紧时间完成目标才是关键。时间拖得越久，机会就越容易错失。
-
 And also it takes crazy ideas.
 Like when Microsoft did the OpenAI deal, I thought that was the stupidest idea I'd ever heard.
 Outsourcing essentially your AI leadership to OpenAI and Sam and his team.
 I mean, that's insane.
 Nobody would do that at Microsoft or anywhere else.
 
-确实，这也需要一些疯狂的想法。比如，当微软与OpenAI达成合作时，我一开始觉得这是我听过的最愚蠢的主意。将你在AI领域的领导地位外包给OpenAI和Sam及其团队，简直不可思议。通常情况下，没有人会在微软或其他任何地方这么做。
-
-但事实证明，这个“疯狂的”决定反而帮助微软在AI领域取得了巨大的进展。这显示出有时候需要打破常规、敢于冒险，才能抓住新的机遇并领先一步。
-
 And yet today, they're on their way to being the most valuable company.
 They're certainly head to head in Apple.
 Apple does not have a good AI solution and it looks like they made it work.
-Yes, sir.
-In terms of national security or geopolitical interests, how do you think AI is going to play a role or competition with China as well?
 
-没错，如今微软正朝着成为全球最有价值公司的方向前进，他们已经在和苹果分庭抗礼。苹果在AI领域并没有好的解决方案，而微软的策略似乎非常奏效。
+埃里克：工作态度不同。
+问题在于，我之所以对工作要求这么严格，是因为这些系统具有网络效应。所以时间至关重要。
+而在大多数行业，时间并不那么重要，你有的是时间。
+
+可口可乐和百事可乐还会一直存在，它们之间的竞争会一直持续下去，而且这个过程慢得像冰川移动。
+我处理电信公司时，一笔电信公司的合同通常需要18个月才能签署。
+没有任何理由需要18个月来完成任何事情，应该尽快搞定。
+我们正处于一个增长最大、收益最高的时期。
+
+而且，有时也需要一些疯狂的想法。比如微软和OpenAI的合作，当时我觉得这是我听过最蠢的想法。
+基本上，微软把它的AI领导地位外包给了OpenAI和Sam他们的团队。我觉得这简直是疯了。
+在微软，或者任何其他公司，没人会这么做。
+
+然而，如今微软正在迈向成为最有价值的公司。
+微软显然和苹果正面竞争。
+苹果并没有一个很好的AI解决方案，而看起来微软成功了。
 
 ### 国家与战争
 
-至于在国家安全或地缘政治利益方面，AI将如何在与中国的竞争中发挥作用呢？AI无疑会成为关键因素。首先，AI技术的发展直接影响到国防、情报和网络安全等关键领域。拥有领先的AI技术意味着在这些领域占据优势，这不仅关乎经济竞争，更涉及国家安全。
+Eric: Yes, sir.
 
-其次，AI还会在经济和技术竞争中起到至关重要的作用。中美两国都在加速AI技术的研发，力求在这一领域取得全球主导地位。谁能在AI领域占据领先地位，谁就有可能在全球技术竞争中占据优势。
+Student E: In terms of national security or geopolitical interests, how do you think AI is going to play a role or competition with China as well?
 
-最后，AI也会影响到全球供应链和技术标准的制定。如果美国在AI技术上领先，不仅可以在国际市场上保持竞争力，还可以影响全球的技术标准，确保美国的利益得到保护。因此，AI不仅是技术问题，更是国家战略的重要组成部分。
+埃里克：请说。
 
-So I was the chairman of an AI commission that sort of looked at this very carefully and you can read it.
+学生E：在国家安全或地缘政治利益方面，您认为人工智能将如何在与中国的竞争中发挥作用？
+
+Eric: So I was the chairman of an AI commission that sort of looked at this very carefully and you can read it.
 It's about 752 pages and I'll just summarize it by saying we're ahead, we need to stay ahead, and we need lots of money to do so.
 Our customers were the Senate and the House.
-And out of that came the Chips Act and a lot of other stuff like that.
+And out of that came the CHIPS Act and a lot of other stuff like that.
 A rough scenario is that if you assume the frontier models drive forward and a few of the open source models, it's likely that a very small number of companies can play this game.
-
-我曾担任一个AI委员会的主席，我们对这个问题进行了非常深入的研究。你可以去看一下报告，大约有752页。我可以简单总结一下：我们现在领先，但需要保持领先地位，而这需要大量资金支持。
-
-我们的主要客户是参议院和众议院，这也促成了《芯片法案》和其他类似的措施。一个粗略的预期是，如果前沿模型继续发展，而一些开源模型也有所进展，那么可能只有极少数公司有能力参与这场竞争。
-
-这意味着，未来的AI领域可能会被少数几家公司主导，这些公司不仅拥有资源和技术能力，还能够推动整个行业的发展。而对于国家来说，确保这些公司保持竞争力、并且在全球范围内占据领先地位，至关重要。这也进一步凸显了政府对AI技术投资的必要性，以确保在全球竞争中继续保持优势。
-
 Countries, excuse me.
 What are those countries or who are they?
 Countries with a lot of money and a lot of talent, strong educational systems, and a willingness to win.
 The US is one of them.
 China is another one.
-
-抱歉，是国家。哪些国家具备这些条件呢？就是那些拥有大量资金、丰富人才、强大教育体系，以及赢得竞争意愿的国家。美国是其中之一，中国也是另一个。
-
 How many others are there?
 Are there any others?
 I don't know.
 Maybe.
 But certainly in your lifetimes, the battle between the US and China for knowledge supremacy is going to be the big fight.
 
-还有多少其他国家？是否有其他国家参与其中？我不确定，或许有，但可以肯定的是，在你们的有生之年，美国和中国在知识领域的主导权之争将是最重要的战斗。这场较量将深刻影响全球的科技发展和地缘政治格局。
+埃里克：我曾是一个AI委员会的主席，这个委员会非常仔细地研究了这个问题，你可以看看报告，差不多有752页。我来总结一下，就是我们目前处于领先地位，我们需要保持领先，并且需要大量资金来实现这一点。我们向参议院和众议院汇报工作，因此诞生了芯片法案和其他相关政策。大致的情况是，如果前沿模型不断发展，再加上一些开源模型，可能只有少数几个国家能参与这场竞争。抱歉，我的意思是国家。那么这些国家有哪些？它们需要有大量的资金、丰富的人才、强大的教育体系，并且有获胜的意愿。美国是其中之一，中国也是。还有其他国家吗？有没有？我不知道。也许有。但毫无疑问，在你们的有生之年，美国和中国在知识霸权上的竞争将是最大的对决。
 
-So the US government banned essentially the NVIDIA chips, although they weren't allowed to say that was what they were doing, but they actually did that into China.
+Eric: So the US government banned essentially the NVIDIA chips, although they weren't allowed to say that was what they were doing, but they actually did that into China.
 They have about a 10-year chip advantage.
-We have a roughly 10-year chip advantage in terms of sub-DUV that is sub-five Danometer chips.
-So an example would be today we're a couple of years ahead of China.
+
+Moderator: Ten years, that long?
+
+Eric: roughly 10-year
+
+Moderator: Wow
+
+Eric: So an example would be today we're a couple of years ahead of China.
 My guess is we'll get a few more years ahead of China, and the Chinese are whopping mad about this.
-
-美国政府实际上禁止了NVIDIA芯片的出口，虽然他们不能明说这是他们的意图，但事实上确实是这样做的。美国在芯片技术上大约领先中国10年，尤其是在亚深紫外光刻技术（sub-DUV）方面，即制造小于5纳米的芯片。目前我们在这方面领先中国几年，我猜测我们可能会再多领先几年，这让中国非常愤怒。
-
-这种技术优势不仅体现在芯片制造上，还涉及整个半导体供应链。通过限制关键技术的出口，美国试图保持在全球科技竞争中的领先地位，而中国则正在加速自主研发，以弥补这一差距。这场竞争将对全球科技和经济格局产生深远影响。
-
 It's like hugely upset about it.
 So that's a big deal.
-That was a decision made by the Trump administration and driven by the Biden administration.
-Do you find that the administration today in Congress is listening to your advice?
-Do you think that it's going to make that scale of investment?
+That was a decision made by the Trump administration and proved by the Biden administration.
 
-中国对此确实非常愤怒。这是一个重大问题，最初由特朗普政府作出决定，并在拜登政府期间得到延续。
+埃里克：所以美国政府基本上禁止了英伟达芯片进入中国，虽然他们不允许公开承认这是他们的目的，但实际上确实是这样做的。美国在芯片技术上大约领先中国10年。
 
-至于今天的政府和国会是否在听取我们的建议，并且是否会做出那种规模的投资，我确实看到了他们在这些方面的重视。近年来，我们确实看到了对芯片制造、人工智能和其他关键技术的大规模投资，特别是通过《芯片法案》等措施来支持国内半导体产业的发展。
+主持人：10年，这么久？
 
-然而，是否能够持续进行大规模的投资以保持美国在科技领域的领先地位，仍然取决于政府和国会的持续关注和行动。这不仅需要足够的资金支持，还需要长期的战略规划和执行，以应对来自中国和其他国家的竞争。
+埃里克：大概10年左右。
 
-Obviously the chips act, but beyond that, building a massive AI system?
-So as you know, I lead an informal, ad hoc, non-legal group.
+主持人：哇。
+
+埃里克：举个例子，现在我们大概比中国领先几年，我猜我们还能继续拉开差距。中国对此非常愤怒，可以说是极度愤怒。这是件大事。特朗普政府做出了这个决定，并且拜登政府延续了它。
+
+Moderator: Do you find that the administration today in Congress is listening to your advice?
+Do you think that it's going to make that scale of investment? I mean, obviously the CHIPS Act, but beyond that, building a massive AI system?
+
+Eric: So as you know, I lead an informal, ad hoc, non-legal group.
 That's different from illegal.
 That's exactly.
 Just to be clear.
-
-显然，《芯片法案》是一个重要举措，但除了这个之外，还需要投入大量资源来构建庞大的AI系统。正如你所知，我领导着一个非正式、临时、没有法律约束力的小组，这与非法是有区别的。只是想澄清一下。
-
 Which includes all the usual suspects.
-And the usual suspects over the last year came up with the basis of the reasoning that became the Biden administration's AI act, which is the longest presidential directive in history.
-You're talking about the special competitive studies project?
-No, this is the actual act from the executive office.
+And the usual suspects over the last year came up with the basis of the reasoning that became the Biden administration's AI Act, which is the longest presidential directive in history.
+
+主持人：您觉得现任政府和国会在听取您的建议吗？您认为他们会投入这么大规模的资金吗？我指的不只是芯片法案，还包括建立一个庞大的AI系统。
+
+埃里克：如你所知，我领导了一个非正式的、特设的、非法律性质的小组。这和非法是不一样的，没错。我就是要澄清一下。这其中包括了一些熟面孔。在过去的一年里，这些人提出了拜登政府AI法案的基本思路，而这也是历史上最长的总统指令。
+
+Moderator: You're talking about the special competitive studies project?
+
+Eric: No, this is the actual act from the executive office.
 And they're busy implementing the details.
-
-这个小组包括了所有的“惯常嫌疑人”。在过去的一年里，这些“嫌疑人”提出了成为拜登政府《AI法案》基础的理由，这也是历史上最长的总统指令。
-
-你是指特别竞争研究项目吗？
-
-不，我指的是来自总统行政办公室的实际法案，他们正在忙于落实其中的具体细节。
-
 So far they've got it right.
-And so, for example, one of the debates that we had for the last year has been, how do you detect danger in a system which has learned it but you don't know what to ask it?
+And so, for example, one of the debates that we had for the last year has been, how do you detect danger in a system which has learned it, but you don't know what to ask it?
 So in other words, it's a core problem.
 It's learned something bad, but it can't tell you what it learned and you don't know what to ask it.
-And there's so many threats.
-
-到目前为止，他们做得还不错。例如，过去一年我们讨论的一个核心问题是：如何在一个系统中检测出危险，尤其是当它已经学会了某些东西，但你不知道该问它什么时。
-
-换句话说，这是一个核心难题：系统学到了某些不好的东西，但它无法告诉你它学到了什么，而你也不知道该如何提问。这种情况下存在诸多潜在威胁。随着AI系统变得越来越复杂，识别和管理这些未知风险变得尤为关键。
-
+And there's so many threats, right?
 Like it learned how to mix chemistry in some new way that you don't know how to ask it.
 And so people are working hard on that.
 But we ultimately wrote in our memos to them that there was a threshold which we arbitrarily named as 10 to the 26 flops, which technically is a measure of computation, that above that threshold you had to report to the government that you were doing this.
 And that's part of the rule.
-The EU to just make sure they were different did it 10 to the 25.
+The EU, to just make sure they were different, did it 10 to the 25.
 
-比如说，系统学会了某种新的化学混合方式，但你不知道如何提问才能揭示这一点。因此，很多人正在努力解决这个问题。
+主持人：您指的是特别竞争研究项目吗？
 
-最终，我们在提交给政府的备忘录中建议设立一个计算能力的门槛，我们任意定为 $ 10^{26} $ 次浮点运算（FLOPS），这是一种技术上的计算能力衡量标准。如果一个系统的计算能力超过这个门槛，必须向政府报告正在进行的相关活动。这成为了规则的一部分。
+埃里克：不，这是来自总统行政办公室的实际法案。他们现在正忙着执行细节。目前为止，他们做得很好。例如，过去一年我们讨论的一个问题是，如何在一个系统中检测到它学到了危险的东西，而你却不知道该问它什么？换句话说，这是一个核心问题。系统学到了某些不好的东西，但它不能告诉你学到了什么，你也不知道该怎么问它。有很多潜在的威胁，比如它学会了如何以一种全新的方式混合化学物质，而你不知道该如何提问。因此，大家在这方面非常努力地工作。最终，我们在提交给他们的备忘录中写明了一个阈值，我们随意将其设定为每秒10的26次方次浮点运算（Flops），这是计算能力的一个技术指标。超过这个阈值，你必须向政府报告你在做什么。这是规定的一部分。为了与众不同，欧盟把这个阈值设定为10的25次方。
 
-欧盟为了显得与众不同，将这个门槛设定为 $ 10^{25} $ 次浮点运算。
+Moderator: Yep.
 
-But it's all kind of close enough.
+Eric: But it's all kind of close enough.
 I think all of these distinctions go away because the technology will now, the technical term is called federated training, where basically you can take pieces and union them together.
 So we may not be able to keep people safe from these new things.
-Well, rumors are that that's how OpenEye has had to train, partly because of the power consumption.
+
+主持人：是的。
+
+埃里克：不过这些其实都差不多了。我认为所有这些区别都会逐渐消失，因为现在有一个叫做“联邦学习”的技术术语，基本上你可以把各个部分联合在一起进行训练。所以我们可能无法完全保护人们免受这些新技术的影响。
+
+#### 真实战争
+
+Moderator: Well, rumors are that that's how OpenAI has had to train, partly because of the power consumption.
 There was no one place where they did.
-
-没错，这些差异实际上差别不大，随着技术的发展，这些区分可能会消失。当前的技术术语叫做“联邦训练”（Federated Training），基本上意味着你可以将多个计算节点的成果结合在一起进行训练。因此，保护人们免受这些新技术带来的潜在威胁可能会变得更加困难。
-
-据传言，OpenAI也是这样进行训练的，部分原因是因为能耗问题，没有一个单一的地点能够承载所有训练需求。这种分布式的训练方式使得大型AI模型的训练更加可行，但也带来了新的挑战，尤其是在监管和安全方面。
-
 Well, let's talk about a real war that's going on.
 I know that something you've been very involved in is the Ukraine war and in particular, I don't know if you can talk about white stork and your goal of having $500,000, $500 drones destroy $5 million tanks.
 How's that changing warfare?
-I worked for the Secretary of Defense for seven years and tried to change the way we run our military.
+
+Eric: I worked for the Secretary of Defense for seven years and tried to change the way we run our military.
 I'm not a particularly big fan of the military, but it's very expensive and I wanted to see if I could be helpful.
-
-我们来谈谈正在进行的真实战争吧。我知道你非常关注乌克兰战争，尤其是你是否能谈谈“白鹳”计划，以及你们计划用价值500美元的无人机摧毁500万美元的坦克。这是如何改变战争的呢？
-
-我曾为国防部长工作了七年，试图改变我们军队的运作方式。虽然我不是军队的特别支持者，但军队的成本非常高，所以我想看看自己是否能有所帮助。
-
-“白鹳”计划（White Stork）正是这种尝试的一部分。它的目标是通过部署低成本、高效的无人机，在战场上改变传统的作战方式。用500美元的无人机摧毁500万美元的坦克，不仅可以大幅降低作战成本，还可以在战略上取得巨大优势。这种以小博大的方式正在重塑现代战争，使得非对称作战变得更加普遍和有效。
-
-这种战术表明，技术进步正在削弱传统重型武器的主导地位，强调了灵活性和成本效益在现代战争中的重要性。通过这种新方式，较小的国家和组织也能够有效地对抗更强大的敌人，从而改变战争的格局。
-
 And I think in my view, I largely failed.
 They gave me a medal, so they must give medalists to failure or whatever.
-But my self-criticism was nothing has really changed and the system in America is not going to lead to real innovation.
+But my self-criticism was nothing has really changed, and the system in America is not going to lead to real innovation.
 So watching the Russians use tanks to destroy apartment buildings with little old ladies and kids just drove me crazy.
 So I decided to work on a company with your friend Sebastian Thrun as a former faculty member here and a whole bunch of Stanford people.
-
-从我的角度来看，我觉得自己在很大程度上失败了。虽然他们给了我一枚勋章，但或许是因为失败者也会得到勋章。自我批评一下，我认为真正的变化并没有发生，而美国的体制并不会带来真正的创新。
-
-看到俄罗斯用坦克摧毁有老人和孩子居住的公寓楼，这让我感到极度愤怒。所以我决定与Sebastian Thrun——他曾是这里的一位教授——以及一群斯坦福的同事们一起，着手创办一家公司。我们想通过技术创新，为乌克兰这样的国家提供新的手段，以应对这种残酷的战争。
-
-我们专注于开发低成本的无人机和其他技术，希望这些工具能帮助削弱传统武器在战争中的主导地位，并保护无辜平民免受侵害。这种努力不仅是一种战术上的创新，也是一种对抗不公正的手段。通过与技术专家和学者合作，我们希望为那些面对强大敌人的国家和人民带来实际的帮助。
 
 And the idea basically is to do two things.
 Use AI in complicated, powerful ways for these essentially robotic war and the second one is to lower the cost of the robots.
 Now you sit there and you go, why would a good liberal like me do that?
 And the answer is that the whole theory of armies is tanks, artilleries, and mortar and we can eliminate all of them and we can make the penalty for invading a country at least by land essentially be impossible.
 
-这个想法基本上包括两个方面。首先是以复杂而强大的方式使用AI来实现机器人战争；其次是降低机器人的成本。你可能会问，为什么像我这样的自由主义者会做这样的事情呢？
+主持人：是的，据说OpenAI的训练方式部分是因为耗电量的问题，没有在一个地方完成的。现在让我们谈谈一场正在发生的真实战争。我知道您在乌克兰战争中有很多参与，特别是，我不确定您是否可以谈谈White Stork项目，以及您提出的用500美元的无人机摧毁500万美元的坦克的想法。这是如何改变战争的？
 
-答案在于，传统军队的核心装备是坦克、火炮和迫击炮，而我们的目标是通过技术手段消除这些威胁，使得通过地面入侵一个国家变得几乎不可能。我们希望这种新型的战争方式能够彻底改变传统的陆战模式，从而减少甚至消除地面战争的发生。
+埃里克：我曾在国防部长手下工作了七年，试图改变我们军队的运作方式。我并不是特别喜欢军队，但它非常昂贵，所以我想看看自己能否有所帮助。不过在我看来，我基本上是失败了。他们给了我一枚勋章，或许他们是发给失败者的勋章吧。但我的自我批评是，实际上什么都没有改变，美国的体系不会带来真正的创新。看着俄罗斯用坦克摧毁老人和孩子的公寓楼，这让我非常愤怒。所以，我决定和您的朋友，前斯坦福教师塞巴斯蒂安·特龙，以及一群斯坦福的师生合作创办了一家公司。
 
-通过部署大量廉价而高效的机器人和无人机，侵略者将面临极大的技术和成本障碍。这不仅能够保护弱小国家免受入侵，还可能最终改变国际间的战争规则，使得通过地面战术进行侵略变得更加困难。
+这个公司的目标基本上是做两件事。第一，利用人工智能以复杂而强大的方式进行机器人战争；第二，降低机器人的成本。你可能会问，为什么像我这样的自由主义者会做这样的事呢？答案是，传统的军队是以坦克、火炮和迫击炮为基础的，而我们可以彻底淘汰这些武器系统，并让通过陆地入侵一个国家变得几乎不可能实现。
 
-Well, this is a relationship question is that does it give more of an advantage to defense versus offense?
+Moderator: Well, this is a relationship question is that does it give more of an advantage to defense versus offense?
 Can you even make that distinction?
-Because I've been doing this for the last year, I've learned a lot about war that I really did not want to know.
+
+Eric: Because I've been doing this for the last year, I've learned a lot about war that I really did not want to know.
 And one of the things to know about war is that the offense always has the advantage because you can always overwhelm the defensive systems.
 And so you're better off as a strategy of national defense to have a very strong offense that you can use if you need to.
-
-这是一个关于防御与进攻优势的关系问题。是否能够明确区分这两者的优势呢？在过去的一年里，我深入研究了战争问题，学到了很多本不想了解的东西。
-
-其中一个重要的认知是，在战争中，进攻方往往占据优势，因为进攻方可以通过数量和火力压倒防御系统。因此，作为国家防御的战略，拥有一个强大的进攻能力实际上是更有效的。这样，即使面临威胁，你也可以主动出击，而不是仅仅依靠防御。
-
-强大的进攻能力不仅可以在必要时有效威慑敌人，还可以在战争中占据主动地位。这种策略强调了进攻与防御的动态平衡，即使技术进步使防御系统更为强大，进攻方仍然可能通过不断创新和战术调整来维持其优势。这种思维方式在军事战略中仍然至关重要。
-
 And the systems that I and others are building will do that.
-Because of the way the system works, I am now a licensed arms dealer, a computer scientist, businessman, and an arms dealer.
-Is that a progression?
-I don't know.
-I do not recommend this in your group.
+Because of the way the system works, I am now a licensed arms dealer, a computer scientist, businessman, and an arms dealer. And I'm sorry to say...
 
-我和其他人正在开发的系统正是为了实现这一点。由于系统的运作方式，我现在成了一名持证的军火商，一个既是计算机科学家、又是商人、还身兼军火商的人。这算是一种职业进阶吗？我不太确定。
+Moderator: Is that a progression?
 
-不过，我并不推荐你们也走上这条路。
-
+Eric: I don't know. I do not recommend this in your group.
 I stick with AI.
 And because of the way the laws work, we're doing this privately and then this is all legal with the support of the governments.
 It goes straight into the Ukraine and then they fight the war.
 And without going into all the details, things are pretty bad.
 I think if in May or June, if the Russians build up as they are expecting to, Ukraine will lose a whole chunk of its territory and will begin the process of losing the whole country.
-
-我还是专注于AI领域吧。由于法律的运作方式，我们是以私人方式开展这项工作，并且得到了政府的支持，这一切都是合法的。然后这些技术直接送到乌克兰，帮助他们作战。不详述所有细节，但情况确实相当严峻。
-
-如果到五月或六月，俄罗斯按预期集结更多力量，乌克兰可能会失去一大块领土，并开始逐步失去整个国家。这种局势表明，战争的走向可能会对乌克兰产生灾难性的后果，除非能找到有效的抵抗手段。
-
 So the situation is quite dire.
-And if anyone knows Marjorie Taylor Greene, I would encourage you to delete her from your contact list because she's the one, a single individual is blocking the provision of some number of billions of dollars to save an important democracy.
+And if anyone knows Marjorie Taylor Greene, I would encourage you to delete her from your contact list .Because she's the one, a single individual is blocking the provision of some number of billions of dollars to save an important democracy.
 
 情况确实非常严峻。如果你们当中有人认识Marjorie Taylor Greene，我建议你们将她从联系人名单中删除。因为她一个人正在阻挠数十亿美元的援助，这笔资金本可以用来拯救一个重要的民主国家。
 
